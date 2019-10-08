@@ -115,3 +115,17 @@ backpropagation allowed artificial neural networks to be applied to a much wider
 <br>
 <br>
 
+* **Machine Learning Applications(1990s):** Work on machine learning shifts from a knowledge-driven approach to a data-driven approach.  Scientists begin creating programs for computers to analyze large amounts of data and draw conclusions — or “learn” — from the results. we began to apply machine learning in data mining, adaptive software and web applications, text learning, and language learning. Scientists begin creating programs for computers to analyze large amounts of data and draw conclusions — or “learn” — from the results.
+
+<br>
+<br>
+
+* **Deep Blue Beats Garry Kasparov(1996):** Public awareness of AI increased greatly when an IBM computer named Deep Blue beat world chess champion Garry Kasparov in the first game of a match.
+
+Kasparov won the 1996 match, but in 1997 an upgraded Deep Blue then won a second match 3½ games to 2½. Although Deep Blue played an impressive game of chess it largely relied on brute computing power to achieve this, including 480 special purpose ‘chess chips’. It worked by searching from 6-20 moves ahead at each position, having learned by evaluating thousands of old chess games to determine the path to checkmate.
+
+<p align='center'><img src="https://ichef.bbci.co.uk/images/ic/496xn/p0549xh4.jpg"></p>
+
+<br>
+<br>
+
