@@ -80,7 +80,7 @@ Using it, a salesperson enters a selected city and repeatedly has the program vi
 <br>
 <br>
 
-<h1 align="center"> The Thinking Machine(Artificial Intelligence in the 1960s)</h1>
+<h4 align="center"> The Thinking Machine(Artificial Intelligence in the 1960s)</h4>
 <p align='center'><a href="https://www.youtube.com/watch?v=on2H8Qt5fgA" target="_blank">
 <img style="border: 2px solid red" src="https://i1.wp.com/illuminatiwatcher.com/wp-content/uploads/2015/04/WO-Metropolis-False-Maria-Robot-Pentagram.jpg?w=450&ssl=1" 
 alt="FALSE MARIA" width="600" height="400" border="10" /></a></p>
