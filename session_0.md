@@ -1,5 +1,10 @@
 <h1 align="center"> Introduction to Artificial Intelligence and Machine Learning</h1>
+<br>
+<br>
+<br>
 <h2> The Background Story and History of ML/AI </h2>
+<br>
+<br>
 
 ### From Theory to Reality:
 
@@ -234,3 +239,21 @@ Yann LeCun, Facebook’s chief AI scientist, has called GANs “the coolest idea
 <br>
 <br>
 
+#### 2018 Turing Award Winners
+<br>
+
+<p align='center'><img width="700" src="https://awards.acm.org/binaries/content/gallery/acm/ctas/awards/turing-2018-bengio-hinton-lecun.jpg"></p>
+<br>
+
+#### Honourable Mention
+<br>
+<p align='center'><img width="500" src="https://miro.medium.com/max/3200/1*FGGge_GilZ_KJYaoryaxkA.png"></p>
+<br>
+<p align='center'><img width="400" src="https://miro.medium.com/max/1080/1*GPas2MBwIQDzkDkDxMNI9w.jpeg"></p>
+<h4 align="center"> Andrew Ng</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
