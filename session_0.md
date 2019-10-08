@@ -155,6 +155,7 @@ By then, they had the computing power they needed to realize many of their earli
 -->
 
 [YouTube Link](https://youtu.be/uAu3jQWaN6E)
+[For more info](https://www.wired.com/2014/01/geoffrey-hinton-deep-learning/)
 
 <br>
 <br>
@@ -174,6 +175,34 @@ AlexNet is considered one of the most influential papers published in computer v
 AlexNet was not the first fast GPU-implementation of a CNN to win an image recognition contest. A CNN on GPU by K. Chellapilla et al. (2006) was 4 times faster than an equivalent implementation on CPU. A deep CNN of Dan Ciresan et al. (2011) at IDSIA was already 60 times faster and achieved superhuman performance in August 2011. Between May 15, 2011 and September 10, 2012, their CNN won no fewer than four image competitions. They also significantly improved on the best performance in the literature for multiple image databases.
 According to the AlexNet paper, Ciresan's earlier net is "somewhat similar." Both were originally written with CUDA to run with GPU support. In fact, both are actually just variants of the CNN designs introduced by Yann LeCun et al. (1989) who applied the backpropagation algorithm to a variant of Kunihiko Fukushima's original CNN architecture called "neocognitron." The architecture was later modified by J. Weng's method called max-pooling
 -->
+
+<p align='center'><img src="https://cms.qz.com/wp-content/uploads/2018/06/2018-05-11-Alex-Krizhevsky-8394-e1529095310611.jpg?quality=75&strip=all&w=410&h=231"></p>
+
+[Alex Krizhevsky](https://qz.com/1307091/the-inside-story-of-how-ai-got-good-enough-to-dominate-silicon-valley/)
+
+### Advances in Machine Learning from then on
+
+* **GoogleBrain (2012)**: This was a deep neural network created by Jeff Dean of Google, which focused on pattern detection in images and videos. It was able to use Google’s resources, which made it incomparable to much smaller neural networks. It was later used to detect objects in YouTube videos.
+
+<br>
+<br>
+
+* **DeepFace (2014):** This is a Deep Neural Network created by Facebook, which they claimed can recognise people with the same precision as a human can.
+
+<br>
+<br>
+
+* **DeepMind (2014):** This company was bought by Google, and can play basic video games to the same levels as humans. In 2016, it managed to beat a professional at the game Go, which is considered to be one the world’s most difficult board games.
+[YouTube Link](https://www.youtube.com/watch?v=jGyCsVhtW0M)
+
+<br>
+<br>
+
+* **OpenAI (2015):** This is a non-profit organisation created by Elon Musk and others, to create safe artificial intelligence that can benefit humanity.
+
+* **Amazon Machine Learning Platform (2015):** This is part of Amazon Web Services, and shows how most big companies want to get involved in machine learning. They say it drives many of their internal systems, from regularly used services such as search recommendations and Alexa, to more experimental ones like Prime Air and Amazon Go.
+
+* **YOLO - You Only Look Once: Unified, Real-Time Object Detection (2016):**
 
 
 
