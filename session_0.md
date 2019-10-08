@@ -15,9 +15,13 @@ modern machine learning.
 thinking machine. The character **False Maria** was the first robot ever depicted in a film.
 <br>
 <br>
+
 <p align='center'><a href="https://www.youtube.com/watch?v=on2H8Qt5fgA" target="_blank">
 <img style="border: 2px solid red" src="https://i1.wp.com/illuminatiwatcher.com/wp-content/uploads/2015/04/WO-Metropolis-False-Maria-Robot-Pentagram.jpg?w=450&ssl=1" 
 alt="FALSE MARIA" width="600" height="400" border="10" /></a></p>
+
+[YouTube Link](https://www.youtube.com/watch?v=on2H8Qt5fgA)
+
 <br>
 <br>
 
@@ -84,6 +88,8 @@ Using it, a salesperson enters a selected city and repeatedly has the program vi
 <img src="https://i.ibb.co/4VMHGsK/thinking-machine.png" width="400">
 </a></p>
 
+[YouTube Link](https://www.youtube.com/watch?time_continue=167&v=aygSMgK3BEM)
+
 <br>
 <br>
 
@@ -125,6 +131,8 @@ Kasparov won the 1996 match, but in 1997 an upgraded Deep Blue then won a second
 
 <p align='center'><img src="https://ichef.bbci.co.uk/images/ic/496xn/p0549xh4.jpg"></p>
 
+[YouTube Link](https://www.youtube.com/watch?v=KF6sLCeBj0s)
+
 <br>
 <br>
 
@@ -141,3 +149,32 @@ Hand-picking these researchers, Hinton aimed to create a team of world-class thi
 -->
 
 By then, they had the computing power they needed to realize many of their earlier ideas. As they came together for regular workshops, their research accelerated. They built more powerful deep learning algorithms that operated on much larger datasets. By the middle of the decade, they were winning global AI competitions. And by the beginning the current decade, the giants of the web began to notice.
+
+<!--
+<p align='center'><img src="https://images.thestar.com/wgf2KXhd5xhhKyMIEk-VAXShecA=/1200x799/smart/filters:cb(2700061000)/https://www.thestar.com/content/dam/thestar/news/world/2015/04/17/how-a-toronto-professors-research-revolutionized-artificial-intelligence/geoffrey-hinton-3.jpg" width="500"></p>
+-->
+
+[YouTube Link](https://youtu.be/uAu3jQWaN6E)
+
+<br>
+<br>
+
+* **CNN, LeNet5 and AlexNet and use of GPU in Machine Learning(2012):** It is the year 1994, and this is one of the very first convolutional neural networks, and what propelled the field of Deep Learning. This pioneering work by Yann LeCun was named LeNet5 after many previous successful iterations since the year 1988.
+
+<p align='center'><img src="https://cdn-images-1.medium.com/max/800/0*V1vb9SDnsU1eZQUy.jpg"></p>
+
+###### The Gap
+In the years from 1998 to 2010 neural network were in incubation. Most people did not notice their increasing power, while many other researchers slowly progressed. More and more data was available because of the rise of cell-phone cameras and cheap digital cameras. And computing power was on the rise, CPUs were becoming faster, and GPUs became a general-purpose computing tool. Both of these trends made neural network progress, albeit at a slow rate. Both data and computing power made the tasks that neural networks tackled more and more interesting. And then it became clear…
+
+###### The AlexNet
+In 2012, Alex Krizhevsky released AlexNet which was a deeper and much wider version of the LeNet and won by a large margin the difficult ImageNet competition.
+AlexNet is considered one of the most influential papers published in computer vision, having spurred many more papers published employing CNNs and GPUs to accelerate deep learning.
+
+<!--
+AlexNet was not the first fast GPU-implementation of a CNN to win an image recognition contest. A CNN on GPU by K. Chellapilla et al. (2006) was 4 times faster than an equivalent implementation on CPU. A deep CNN of Dan Ciresan et al. (2011) at IDSIA was already 60 times faster and achieved superhuman performance in August 2011. Between May 15, 2011 and September 10, 2012, their CNN won no fewer than four image competitions. They also significantly improved on the best performance in the literature for multiple image databases.
+According to the AlexNet paper, Ciresan's earlier net is "somewhat similar." Both were originally written with CUDA to run with GPU support. In fact, both are actually just variants of the CNN designs introduced by Yann LeCun et al. (1989) who applied the backpropagation algorithm to a variant of Kunihiko Fukushima's original CNN architecture called "neocognitron." The architecture was later modified by J. Weng's method called max-pooling
+-->
+
+
+
+
