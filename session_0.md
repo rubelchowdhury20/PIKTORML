@@ -121,7 +121,6 @@ backpropagation allowed artificial neural networks to be applied to a much wider
 <br>
 
 * **Deep Blue Beats Garry Kasparov(1996):** Public awareness of AI increased greatly when an IBM computer named Deep Blue beat world chess champion Garry Kasparov in the first game of a match.
-
 Kasparov won the 1996 match, but in 1997 an upgraded Deep Blue then won a second match 3½ games to 2½. Although Deep Blue played an impressive game of chess it largely relied on brute computing power to achieve this, including 480 special purpose ‘chess chips’. It worked by searching from 6-20 moves ahead at each position, having learned by evaluating thousands of old chess games to determine the path to checkmate.
 
 <p align='center'><img src="https://ichef.bbci.co.uk/images/ic/496xn/p0549xh4.jpg"></p>
