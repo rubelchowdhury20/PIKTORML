@@ -78,6 +78,13 @@ This algorithm was used for mapping routes and was one of the earliest algorithm
 Using it, a salesperson enters a selected city and repeatedly has the program visit the nearest cities until all have been visited.
 
 <br>
+
+<h4 align="center"> The Thinking Machine(Artificial Intelligence in the 1960s)</h4>
+<p align='center'><a href="https://www.youtube.com/watch?time_continue=167&v=aygSMgK3BEM" target="_blank">
+<img src="https://i.ibb.co/4VMHGsK/thinking-machine.png" width="400">
+</a></p>
+
+<br>
 <br>
 
 * **The years of 1970s and early 1980s:** In the late 1970s and early 1980s, neural network research was abandoned by computer science and AI researchers. 
