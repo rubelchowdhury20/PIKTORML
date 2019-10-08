@@ -1,7 +1,7 @@
 <h1 align="center"> Introduction to Artificial Intelligence and Machine Learning</h1>
 <h2> The Background Story and History of ML/AI </h2>
 
-#### The Timeline:
+### From Theory to Reality:
 
 * **Pre 1940s:** Many of the major mathematical concepts of modern machine learning came from statistics. Few of those major breakthroughs
 include **Bayes Thearem(1812)**, **Least Square Method(1805)**, **Markov Chain(1913)**. These techniques are all fundamental to
@@ -128,3 +128,16 @@ Kasparov won the 1996 match, but in 1997 an upgraded Deep Blue then won a second
 <br>
 <br>
 
+### Modern Machine Learning:
+
+* **Neural Net research gets a reboot as "Deep Learning(2006)**: Back in the early '80s, when Hinton and his colleagues first started work on this idea, computers weren’t fast or powerful enough to process the enormous collections of data that neural nets require. Their success was limited, and the AI community turned its back on them, working to find shortcuts to brain-like behavior rather than trying to mimic the operation of the brain.
+
+But a few resolute researchers carried on. According to Hinton and LeCun, it was rough going. Even as late as 2004 – more than 20 years after Hinton and LeCun first developed the "back-propagation" algorithms that seeded their work on neural networks – the rest of the academic world was largely uninterested.
+
+But that year, with a small amount of funding from the Canadian Institute for Advanced Research (CIFAR) and the backing of LeCun and Bengio, Hinton founded the Neural Computation and Adaptive Perception program, an invite-only group of computer scientists, biologists, electrical engineers, neuroscientists, physicists, and psychologists.
+
+<!--
+Hand-picking these researchers, Hinton aimed to create a team of world-class thinkers dedicated to creating computing systems that mimic organic intelligence – or at least what we know about organic intelligence, what we know about how the brain sifts through a wealth of visual, auditory, and written cues to understand and respond to its environment. Hinton believed creating such a group would spur innovation in AI and maybe even change the way the rest of world treated this kind of work.
+-->
+
+By then, they had the computing power they needed to realize many of their earlier ideas. As they came together for regular workshops, their research accelerated. They built more powerful deep learning algorithms that operated on much larger datasets. By the middle of the decade, they were winning global AI competitions. And by the beginning the current decade, the giants of the web began to notice.
