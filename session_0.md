@@ -80,11 +80,6 @@ Using it, a salesperson enters a selected city and repeatedly has the program vi
 <br>
 <br>
 
-<h4 align="center"> The Thinking Machine(Artificial Intelligence in the 1960s)</h4>
-<p align='center'><a href="https://www.youtube.com/watch?v=on2H8Qt5fgA" target="_blank">
-<img style="border: 2px solid red" src="https://i1.wp.com/illuminatiwatcher.com/wp-content/uploads/2015/04/WO-Metropolis-False-Maria-Robot-Pentagram.jpg?w=450&ssl=1" 
-alt="FALSE MARIA" width="600" height="400" border="10" /></a></p>
-
 * **The years of 1970s and early 1980s:** In the late 1970s and early 1980s, neural network research was abandoned by computer science and AI researchers. 
 The Machine Learning industry, which included a large number of researchers and technicians, was reorganized into a separate field and struggled for nearly a decade.
 The industry goal shifted from training for Artificial Intelligence to solving practical problems in terms of providing services.
@@ -113,6 +108,3 @@ backpropagation allowed artificial neural networks to be applied to a much wider
 <br>
 <br>
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
