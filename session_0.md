@@ -1,8 +1,9 @@
 <h1 align="center"> Introduction to Artificial Intelligence and Machine Learning</h1>
 <br>
+<p align='center'><img widht="900" src="https://cdn.business2community.com/wp-content/uploads/2018/01/what-is-machine-learning-dilbert.png"></p>
 <br>
 <br>
-<h2> The Background Story and History of ML/AI </h2>
+<h2> The Background Story and History of ML/AI:</h2>
 <br>
 <br>
 
@@ -39,7 +40,8 @@ if it is also human.
 
 ###### Turing Test
 <p align='center'><img src="https://miro.medium.com/max/678/0*dGRyc5T7yqU6MRJH."></p>
-
+<br>
+<p align='center'><img src="https://i.pinimg.com/736x/47/14/eb/4714eb4d37d451c394b904197e40c4db.jpg"></p>
 <!---
 According to this kind of test, a computer is deemed to have artificial intelligence if it can mimic human responses under specific conditions.
 In the basic Turing Test, there are three points. Two of the points are operated by humans, and the third point is operated by a computer. 
@@ -239,6 +241,14 @@ Yann LeCun, Facebook’s chief AI scientist, has called GANs “the coolest idea
 <br>
 <br>
 
+<!--
+The Importance of GPUs
+Nvidia is behind one of the largest conferences on AI, and this is for a good reason - GPUs are extremely important in the world of machine learning. GPUs have around 200 times more processors per chip than CPUs. The flip side of this, however, is that whereas CPUs can perform any kind of computation, GPUs are tailored to only specific use cases, where operations (addition, multiplicaiton, etc.) have to be performed on vectors, which are essentially lists of numbers. A CPU would perform each operation on each number in the vector syncronously, i.e. one by one. This is slow. A GPU would perform operations on each number in the vector in parallel i.e. at the same time.
+
+Vectors and matrices, which are grids of numbers (or lists of vectors) are essential to machine learning applications, and because of this, they are smaller, hence why more can be fit on one chip. Nvidia are credited with making the world’s first GPU, the GeForce 256 in 1999. At that time, launching the product was a risk as it was an entirely new kind of product. However, due to the use of vector calculations in video games, GPUs proliferated, as video games benefitted from a huge leap in performance. It was years later, than mathematicians, scientists and engineers realised that GPUs could be used to improve the speed of computations used in their discipline, due to the use of vectors. This led to the realisation that GPUs would make neural networks, a very old idea, leaps and bounds more practical. This led to GPU companies particularly Nvidia benefitting hugely from the “machine learning revolution”. Nvidia’s stock price has increased roughly 18-fold since 2012, the year in which the importance of GPUs in machine learning was demonstrated by AlexNet.
+
+-->
+
 #### 2018 Turing Award Winners
 <br>
 
@@ -256,4 +266,29 @@ Yann LeCun, Facebook’s chief AI scientist, has called GANs “the coolest idea
 <br>
 <br>
 <br>
+<br>
+
+## Misconceptions about ML/AI:
+<br>
+<p align='center'><img width="400" src="https://images-cdn.9gag.com/photo/aOYA1mE_700b.jpg"></p>
+<br>
+<p align='center'><img width="500" src="https://external-preview.redd.it/B_lQeKFyKYYGhEiMc3-FmczG4HxqnDMBtiWYNVcaExg.jpg?auto=webp&s=163d0092dacc73edd486174d80f770bca2c72410"></p>
+<br>
+
+##### Using millions of if-else statements in your code means you’re already aware of those if-else conditions and you’re writing a program to tackle the situation.
+
+##### AI on the other hand in simple words means a program taking care of the other scenarios too which it is NOT programmed for. That means the program learns with new conditions around the environment and evolves accordingly.
+
+<br>
+
+### Venn Diagram of ML/AI:
+
+<br>
+
+<p align="center"><img width="500" src="https://whatsthebigdata.files.wordpress.com/2016/10/ai_data-science-diagram.jpg?w=640"></p>
+
+<br>
+
+<p align="center"><img width="500" src="https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20181109071100/machine-learning-AI-2.png"></p>
+
 <br>
