@@ -145,7 +145,7 @@ Kasparov won the 1996 match, but in 1997 an upgraded Deep Blue then won a second
 
 ### Modern Machine Learning:
 
-* **Neural Net research gets a reboot as "Deep Learning(2006)**: Back in the early '80s, when Hinton and his colleagues first started work on this idea, computers weren’t fast or powerful enough to process the enormous collections of data that neural nets require. Their success was limited, and the AI community turned its back on them, working to find shortcuts to brain-like behavior rather than trying to mimic the operation of the brain.
+* **Neural Net research gets a reboot as "Deep Learning"(2006)**: Back in the early '80s, when Hinton and his colleagues first started work on this idea, computers weren’t fast or powerful enough to process the enormous collections of data that neural nets require. Their success was limited, and the AI community turned its back on them, working to find shortcuts to brain-like behavior rather than trying to mimic the operation of the brain.
 
 But a few resolute researchers carried on. According to Hinton and LeCun, it was rough going. Even as late as 2004 – more than 20 years after Hinton and LeCun first developed the "back-propagation" algorithms that seeded their work on neural networks – the rest of the academic world was largely uninterested.
 
@@ -292,3 +292,11 @@ Vectors and matrices, which are grids of numbers (or lists of vectors) are essen
 <p align="center"><img width="500" src="https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20181109071100/machine-learning-AI-2.png"></p>
 
 <br>
+<br>
+<br>
+<br>
+
+## Exciting things happening in ML/AI around the world:
+
+
+
