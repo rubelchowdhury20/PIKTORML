@@ -41,7 +41,7 @@ if it is also human.
 ###### Turing Test
 <p align='center'><img src="https://miro.medium.com/max/678/0*dGRyc5T7yqU6MRJH."></p>
 <br>
-<p align='center'><img src="https://i.pinimg.com/736x/47/14/eb/4714eb4d37d451c394b904197e40c4db.jpg"></p>
+<p align='center'><img width="500" src="https://i.pinimg.com/736x/47/14/eb/4714eb4d37d451c394b904197e40c4db.jpg"></p>
 <!---
 According to this kind of test, a computer is deemed to have artificial intelligence if it can mimic human responses under specific conditions.
 In the basic Turing Test, there are three points. Two of the points are operated by humans, and the third point is operated by a computer. 
@@ -121,6 +121,7 @@ However, hand-engineering successful features requires a lot of knowledge and pr
 > Backpropagation was one of the first methods able to demonstrate that artificial neural networks could learn good internal representations, 
 i.e. their hidden layers learned nontrivial features. Even more importantly, because of the efficiency of the algorithm and the fact that domain experts were no longer required to discover appropriate features, 
 backpropagation allowed artificial neural networks to be applied to a much wider field of problems that were previously off-limits due to time and cost constraints.
+<br>
 
 <p align='center'><img src="https://pbs.twimg.com/media/D1odAE7XgAAHhYx.png"></p>
 
@@ -147,15 +148,15 @@ Kasparov won the 1996 match, but in 1997 an upgraded Deep Blue then won a second
 
 * **Neural Net research gets a reboot as "Deep Learning"(2006)**: Back in the early '80s, when Hinton and his colleagues first started work on this idea, computers weren’t fast or powerful enough to process the enormous collections of data that neural nets require. Their success was limited, and the AI community turned its back on them, working to find shortcuts to brain-like behavior rather than trying to mimic the operation of the brain.
 
-But a few resolute researchers carried on. According to Hinton and LeCun, it was rough going. Even as late as 2004 – more than 20 years after Hinton and LeCun first developed the "back-propagation" algorithms that seeded their work on neural networks – the rest of the academic world was largely uninterested.
+>But a few resolute researchers carried on. According to Hinton and LeCun, it was rough going. Even as late as 2004 – more than 20 years after Hinton and LeCun first developed the "back-propagation" algorithms that seeded their work on neural networks – the rest of the academic world was largely uninterested.
 
-But that year, with a small amount of funding from the Canadian Institute for Advanced Research (CIFAR) and the backing of LeCun and Bengio, Hinton founded the Neural Computation and Adaptive Perception program, an invite-only group of computer scientists, biologists, electrical engineers, neuroscientists, physicists, and psychologists.
+>But that year, with a small amount of funding from the Canadian Institute for Advanced Research (CIFAR) and the backing of LeCun and Bengio, Hinton founded the Neural Computation and Adaptive Perception program, an invite-only group of computer scientists, biologists, electrical engineers, neuroscientists, physicists, and psychologists.
 
 <!--
 Hand-picking these researchers, Hinton aimed to create a team of world-class thinkers dedicated to creating computing systems that mimic organic intelligence – or at least what we know about organic intelligence, what we know about how the brain sifts through a wealth of visual, auditory, and written cues to understand and respond to its environment. Hinton believed creating such a group would spur innovation in AI and maybe even change the way the rest of world treated this kind of work.
 -->
 
-By then, they had the computing power they needed to realize many of their earlier ideas. As they came together for regular workshops, their research accelerated. They built more powerful deep learning algorithms that operated on much larger datasets. By the middle of the decade, they were winning global AI competitions. And by the beginning the current decade, the giants of the web began to notice.
+>By then, they had the computing power they needed to realize many of their earlier ideas. As they came together for regular workshops, their research accelerated. They built more powerful deep learning algorithms that operated on much larger datasets. By the middle of the decade, they were winning global AI competitions. And by the beginning the current decade, the giants of the web began to notice.
 
 <!--
 <p align='center'><img src="https://images.thestar.com/wgf2KXhd5xhhKyMIEk-VAXShecA=/1200x799/smart/filters:cb(2700061000)/https://www.thestar.com/content/dam/thestar/news/world/2015/04/17/how-a-toronto-professors-research-revolutionized-artificial-intelligence/geoffrey-hinton-3.jpg" width="500"></p>
@@ -296,7 +297,18 @@ Vectors and matrices, which are grids of numbers (or lists of vectors) are essen
 <br>
 <br>
 
-## Exciting things happening in ML/AI around the world:
+## Exciting things happening in the field of ML/AI:
+
+<br>
+<br>
+
+<p align="center"><img width="700" src="https://www.3nions.com/wp-content/uploads/2019/07/2019-07-17_13-34-26.jpg"></p>
+
+<br>
+
+<p align="center"><img width="700" src="https://www.macblog.sk/wp/wp-content/uploads/2016/07/Prisma-iOS-Photo-Filter-App-Offers-Amazing-Effects-For-Free-.jpg"></p>
+                                                                                                                 
+                                                                                                                
 
 
 
