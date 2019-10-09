@@ -312,7 +312,7 @@ Vectors and matrices, which are grids of numbers (or lists of vectors) are essen
 <br>
 <br>
 
-### Okay time for something serious. Let's take a look at few amazing scenerios where people are using ML/AI to solve real world problems
+#### Okay time for something serious. Let's take a look at few amazing scenerios where people are using ML/AI to solve real world problems
 
 * **AI can make realistic phone calls:** Last year during the Google I/O event google demonstrated their Duplex App, which successfully made a call with a hair salon and booked an appointment. The lady at the hair salon had no clue that she was talking to a computer.
 
