@@ -307,8 +307,14 @@ Vectors and matrices, which are grids of numbers (or lists of vectors) are essen
 <br>
 
 <p align="center"><img width="700" src="https://www.macblog.sk/wp/wp-content/uploads/2016/07/Prisma-iOS-Photo-Filter-App-Offers-Amazing-Effects-For-Free-.jpg"></p>
+
+<br>
+
+#### Okay time for something serious. Let's take a look at few amazing scenerios where people are using ML/AI to solve real world problems
+
+* **Realistic Phone Calls:**
+
                                                                                                                  
                                                                                                                 
-
-
+                                                                     
 
