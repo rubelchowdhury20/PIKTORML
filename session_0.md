@@ -311,11 +311,13 @@ Vectors and matrices, which are grids of numbers (or lists of vectors) are essen
 <br>
 <br>
 <br>
+
 ### Okay time for something serious. Let's take a look at few amazing scenerios where people are using ML/AI to solve real world problems
 
 * **AI can make realistic phone calls:** Last year during the Google I/O event google demonstrated their Duplex App, which successfully made a call with a hair salon and booked an appointment. The lady at the hair salon had no clue that she was talking to a computer.
 
 <p align="center"><img width="500" src="https://i.ibb.co/DMqr5P7/duplex.png"></p>
+
 [YouTube Link](https://www.youtube.com/watch?v=D5VN56jQMWM)
 
 <br>
@@ -324,12 +326,14 @@ Vectors and matrices, which are grids of numbers (or lists of vectors) are essen
 * **AI can find missing children:**  Nearly 3,000 missing children have been traced in four days, thanks to the facial recognition system (FRS) software that the Delhi Police is using on a trial basis to track down such children.
 
 <p align="center"><img width="500" src="https://i.ndtvimg.com/i/2017-03/child-abuse-boy_650x400_51489589853.jpg"></p>
+
 [Link to the article](https://www.ndtv.com/india-news/facial-recognition-system-helps-trace-3-000-missing-children-in-4-days-1841192)
 
 <br>
 <br>
 
 * **AI can look through walls:** MIT recently announced that they had built an AI system that could literally ‘see’ people moving behind walls. They hooked up a neural network to a WIFI antenna and trained it to recognize the radio signals being bounced off people’s bodies. Over time, the network learned to recognize people and track their movements exactly, even in the dark or when they move behind walls.
+
 [YouTube Link](https://youtu.be/HgDdaMy8KNE)
 
 <br>
@@ -340,6 +344,7 @@ Google’s DeepMind division trained a neural network on a database of OCT scans
 This is an astounding result. Six percent more, and the AI would have been exactly as accurate as a panel of human doctors.
 
 <p align="center"><img width="500" src="https://cdn.vox-cdn.com/thumbor/tlcEwBY3Qd_AOovEFLN2J85Q90E=/0x0:5616x3744/920x613/filters:focal(2359x1423:3257x2321):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/60819361/Close_up_of_an_OCT_machine_in_use_by_a_technician_performing_a_scan__1_.0.jpg"></p>
+
 [Link to the article](https://www.theverge.com/2018/8/13/17670156/deepmind-ai-eye-disease-doctor-moorfields)
 
 <br>
@@ -348,6 +353,7 @@ This is an astounding result. Six percent more, and the AI would have been exact
 * **AI can turn Doodles into Stunning, Photorealistic Landscapes:** A deep learning model developed by NVIDIA Research can turn rough doodles into photorealistic masterpieces with breathtaking ease. The tool leverages generative adversarial networks, or GANs, to convert segmentation maps into lifelike images.
 
 <p align="center"><img width="500" src="https://www.digitalartsonline.co.uk/cmsdata/features/3693907/nvidia-gaugan-opener.jpg"></p>
+
 [YouTube Link](https://www.youtube.com/watch?v=p5U4NgVGAwg)
 
 <br>
@@ -357,6 +363,8 @@ This is an astounding result. Six percent more, and the AI would have been exact
 
 [Video Link](https://www.instagram.com/p/B1GhIJIA8qO/?igshid=19912egvu9b8h)
 
+<br>
+<br>
 
 
                                                                                                                  
