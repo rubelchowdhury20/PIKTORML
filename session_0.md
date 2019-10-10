@@ -434,25 +434,23 @@ Now that we have the cropped images, we generate the embeddings of that image. W
       
 [paper link](https://arxiv.org/pdf/1906.01347.pdf)
                                                                                                                  
- # Course Structure 
+# Course Structure 
  
 We are going to discuss the theoretical concepts and the coding parts. 
-You don't have to have a solid background in mathematics and python coding. Interested people can go through topics like linear algebra, probability, statistical concepts, python introduction, etc.
-      [great source](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists)
+You don't have to have a solid background in mathematics and python coding. Interested people can go through topics like linear algebra, probability, statistical concepts, python introduction, etc. [great source](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists)
       
 These sessions are designed to get you up and running with the ml/deep learning concepts. The following are topics we will cover in detail.
 
 * Introduction to Machine Learning
-  
-  * Linear Regression 
-  * Logistic Regression
-  * K-Means Clustering
-  * Perceptron and Neural Networks
+  * Linear Regression 
+  * Logistic Regression
+  * K-Means Clustering
+  * Perceptron and Neural Networks
 
 * Deep Learning
-    * Backpropagation algorithm
-    * Convolutional neural network
-    * Simple classification on MNIST Dataset using CNN and then some real-life classification problems
+  * Backpropagation algorithm
+  * Convolutional neural network
+  * Simple classification on MNIST Dataset using CNN and then some real-life classification problems
     * FACENet, for Face Recognition
 
 Depending on the response we get from you guys we will add more advanced topics like 
