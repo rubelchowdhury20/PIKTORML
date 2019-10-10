@@ -405,6 +405,7 @@ Vera will show you a recommendation based on that apparel. Not only that, but It
 <br>
 
 * **Find the top similar images from the inventory:**<br>
+
 Now that we have the cropped images, we generate the embeddings of that image. With the embeddings information along with the color, we feed it to our deep learning algorithm to give us back the top similar images as a recommendation.
  Along with recommendations from inventory, we also show the current social trends.
  
@@ -426,16 +427,19 @@ Now that we have the cropped images, we generate the embeddings of that image. W
 
 <br>
 <br>
+
       <p align='center'>
             <img src="https://i.imgur.com/iefatdL.png">
       </p>
-      [paper link](https://arxiv.org/pdf/1906.01347.pdf)
+      
+[paper link](https://arxiv.org/pdf/1906.01347.pdf)
                                                                                                                  
  # Course Structure 
  
 We are going to discuss the theoretical concepts and the coding parts. 
 You don't have to have a solid background in mathematics and python coding. Interested people can go through topics like linear algebra, probability, statistical concepts, python introduction, etc.
-      [great source](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists)          
+      [great source](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists)
+      
 These sessions are designed to get you up and running with the ml/deep learning concepts. The following are topics we will cover in detail.
 
 * Introduction to Machine Learning
