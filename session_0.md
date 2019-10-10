@@ -358,8 +358,8 @@ This is an astounding result. Six percent more and the AI would have been exactl
 
 [Video Link](https://www.instagram.com/p/B1GhIJIA8qO/?igshid=19912egvu9b8h)
 
-<br>
-<br>
+[robots learn to limp](https://www.youtube.com/watch?v=KFDMm666QBU)
+
 <br>
 <br>
 
