@@ -378,28 +378,36 @@ Vera will show you recommendation based on that apparel. Not only that, It will 
 
 ## How are we tackling the problem
 
-* **User walks in a store selects an apparel and hangs it on the vera setup** 
+* **User walks in a store selects an apparel and hangs it on the vera setup**
+
 <br>
+
 * **Crop top and bottom:** <br>  We crop out the parts of the image by running it through our object detection algorithm.
+
 <br>
 <br>
-      <p align='center'><img src="https://i.imgur.com/ipJCG8k.jpg" width = "600"/></p>
-    [How does object detection look like](https://streamable.com/wc8l4)
+
+<p align='center'><img src="https://i.imgur.com/ipJCG8k.jpg" width = "600"/></p>
+
+[How does object detection look like](https://streamable.com/wc8l4)
+
 <br>
 
 
 * **Colour of the apparel:** <br> We then find the segmentation map of the image. Segmentation map helps us find the colour of the cropped image
+
 <br>
-      <p align='center'>
-          <img src="https://i.imgur.com/Yy8ReW6.png">
-      </p>
-    [How does segmentation look like](https://www.youtube.com/watch?v=akK5ui-vel0)
+<p align='center'><img src="https://i.imgur.com/Yy8ReW6.png"></p>
+      
+[How does segmentation look like](https://www.youtube.com/watch?v=akK5ui-vel0)
+
 <br>
 <br>
 
 * **Find the top similar images from the inventory:**<br>
 Now that we have the cropped images, we generate the embeddings of that  image. With the embeddings information along with the colour we feed it to our deep learning algorithm to give us back the top similar images as recommendation.
  Along with recommendation from inventory we also show the current social tends.
+ 
 <br>
     <p align='center'>
           <img src="https://i.imgur.com/IUfW9Mr.jpg">
@@ -413,7 +421,9 @@ Now that we have the cropped images, we generate the embeddings of that  image. 
     <p align='center'>
           <img src="https://i.imgur.com/DTdkK53.jpg">
     </p>
+    
 * **Try the look ! :** <br> We are currently working towards showing **try the look**. We let user upload a photo and we supper impose that image with the apparel image using GAN networks.
+
 <br>
 <br>
       <p align='center'>
@@ -422,6 +432,7 @@ Now that we have the cropped images, we generate the embeddings of that  image. 
       [paper link](https://arxiv.org/pdf/1906.01347.pdf)
                                                                                                                  
  # Course Structure 
+ 
 We are going to discuss the theoretical concepts and the coding parts. 
 You don't have to have a solid background on mathematics and python coding. Interested people can go through topics like linear algebra, probability, statistical concepts, python introduction etc.
       [great source](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists)          
