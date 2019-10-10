@@ -451,7 +451,7 @@ These sessions are designed to get you up and running with the ml/deep learning 
   * Backpropagation algorithm
   * Convolutional neural network
   * Simple classification on MNIST Dataset using CNN and then some real-life classification problems
-    * FACENet, for Face Recognition
+  * FACENet, for Face Recognition
 
 Depending on the response we get from you guys we will add more advanced topics like 
 * How do you actually write a CNN from scratch
