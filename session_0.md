@@ -110,7 +110,7 @@ Most of this success was a result of Internet growth, benefiting from the ever-g
 
 * **Back Propagation(1986):** Though **Back Propagation** was derived by multiple researchers in the early 60s. However it was until 1986,
 with the publishing of a paper by Rumelhart, **Hinton**, and Williams, titled "Learning Representations by Back-Propagating Errors," that
-the importance of the algorithm was appreciated by the machine learning community at large.  Yann LeCun, the inventor of the Convolutional Neural Network architecture,
+the importance of the algorithm was appreciated by the machine learning community at large.  Yann LeCun, the inventor of the Convolutional Neural Network architecture,
 proposed the modern form of the back-propagation learning algorithm for neural networks in his Ph.D. thesis in 1987. But it is only much later, in 1993,
 that Wan was able to win an international pattern recognition contest through backpropagation
 > By the 1980s, hand-engineering features had become the de facto standard in many fields, especially in computer vision,
@@ -127,7 +127,7 @@ backpropagation allowed artificial neural networks to be applied to a much wider
 <br>
 <br>
 
-* **Machine Learning Applications (the 1990s):** Work on machine learning shifts from a knowledge-driven approach to a data-driven approach.  Scientists begin creating programs for computers to analyze large amounts of data and draw conclusions — or “learn” — from the results. we began to apply machine learning in data mining, adaptive software and web applications, text learning, and language learning. Scientists begin creating programs for computers to analyze large amounts of data and draw conclusions — or “learn” — from the results.
+* **Machine Learning Applications (the 1990s):** Work on machine learning shifts from a knowledge-driven approach to a data-driven approach.  Scientists begin creating programs for computers to analyze large amounts of data and draw conclusions — or “learn” — from the results. we began to apply machine learning in data mining, adaptive software and web applications, text learning, and language learning. Scientists begin creating programs for computers to analyze large amounts of data and draw conclusions — or “learn” — from the results.
 
 <br>
 <br>
@@ -154,7 +154,7 @@ Kasparov won the 1996 match, but in 1997 an upgraded Deep Blue then won a second
 Hand-picking these researchers, Hinton aimed to create a team of world-class thinkers dedicated to creating computing systems that mimic organic intelligence – or at least what we know about organic intelligence, what we know about how the brain sifts through a wealth of visual, auditory, and written cues to understand and respond to its environment. Hinton believed creating such a group would spur innovation in AI and maybe even change the way the rest of the world treated this kind of work.
 -->
 
->By then, they had the computing power they needed to realize many of their earlier ideas. As they came together for regular workshops, their research accelerated. They built more powerful deep learning algorithms that operated on much larger datasets. By the middle of the decade, they were winning global AI competitions. And by the beginning the current decade, the giants of the web began to notice.
+>By then, they had the computing power they needed to realize many of their earlier ideas. As they came together for regular workshops, their research accelerated. They built more powerful deep learning algorithms that operated on much larger datasets. By the middle of the decade, they were winning global AI competitions. And by the beginning of the current decade, the giants of the web began to notice.
 
 <!--
 <p align='center'><img src="https://images.thestar.com/wgf2KXhd5xhhKyMIEk-VAXShecA=/1200x799/smart/filters:cb(2700061000)/https://www.thestar.com/content/dam/thestar/news/world/2015/04/17/how-a-toronto-professors-research-revolutionized-artificial-intelligence/geoffrey-hinton-3.jpg" width="500"></p>
@@ -318,7 +318,7 @@ Vectors and matrices, which are grids of numbers (or lists of vectors) are essen
 <br>
 <br>
 
-* **AI can find missing children:**  Nearly 3,000 missing children have been traced in four days, thanks to the facial recognition system (FRS) software that the Delhi Police is using on a trial basis to track down such children.
+* **AI can find missing children:**  Nearly 3,000 missing children have been traced in four days, thanks to the facial recognition system (FRS) software that the Delhi Police is using on a trial basis to track down such children.
 
 <p align="center"><img width="500" src="https://i.ndtvimg.com/i/2017-03/child-abuse-boy_650x400_51489589853.jpg"></p>
 
@@ -368,21 +368,21 @@ This is an astounding result. Six percent more and the AI would have been exactl
 
 ## What is the problem statement
 
-Building a successful recommender system depends on understanding both the dimensions of people's preferences as well as their dynamics. Social trends are ever changing. Not only it is subjective to a person but it could have lot of features.
+Building a successful recommender system depends on understanding both the dimensions of people's preferences as well as their dynamics. Social trends are ever-changing. Not only it is subjective to a person but it could have a lot of features.
 
 ## What is vera trying to solve
 
-Vera is in true sense a personalized recommendation system. You go to a shop, select an apparel and hang it in the vera setup. That's all.
+Vera is in true sense a personalized recommendation system. You go to a shop, select apparel and hang it in the vera setup. That's all.
 
-Vera will show you recommendation based on that apparel. Not only that, It will also show what is currently trendy on the market based on that apparel. It will also show you styles that goes with this apparel.
+Vera will show you a recommendation based on that apparel. Not only that, but It will also show what is currently trendy on the market based on that apparel. It will also show you styles that go with this apparel.
 
 ## How are we tackling the problem
 
-* **User walks in a store selects an apparel and hangs it on the vera setup**
+* **User walks in a store selects apparel and hangs it on the vera setup**
 
 <br>
 
-* **Crop top and bottom:** <br>  We crop out the parts of the image by running it through our object detection algorithm.
+* **Crop top and bottom:** <br>  We crop out the parts of the image by running it through our object detection algorithm.
 
 <br>
 <br>
@@ -394,68 +394,67 @@ Vera will show you recommendation based on that apparel. Not only that, It will 
 <br>
 
 
-* **Colour of the apparel:** <br> We then find the segmentation map of the image. Segmentation map helps us find the colour of the cropped image
+* **Colour of the apparel:** <br> We then find the segmentation map of the image. Segmentation map helps us find the color of the cropped image
 
 <br>
 <p align='center'><img src="https://i.imgur.com/Yy8ReW6.png"></p>
-      
+      
 [How does segmentation look like](https://www.youtube.com/watch?v=akK5ui-vel0)
 
 <br>
 <br>
 
 * **Find the top similar images from the inventory:**<br>
-Now that we have the cropped images, we generate the embeddings of that  image. With the embeddings information along with the colour we feed it to our deep learning algorithm to give us back the top similar images as recommendation.
- Along with recommendation from inventory we also show the current social tends.
- 
+Now that we have the cropped images, we generate the embeddings of that image. With the embeddings information along with the color, we feed it to our deep learning algorithm to give us back the top similar images as a recommendation.
+ Along with recommendations from inventory, we also show the current social trends.
+ 
 <br>
-    <p align='center'>
-          <img src="https://i.imgur.com/IUfW9Mr.jpg">
-    </p>
-    <p align='center'>
-          <img src="https://i.imgur.com/gpW9q68.jpg">
-    </p>
-    <p align='center'>
-          <img src="https://i.imgur.com/VN7nFIG.jpg">
-    </p>
-    <p align='center'>
-          <img src="https://i.imgur.com/DTdkK53.jpg">
-    </p>
-    
-* **Try the look ! :** <br> We are currently working towards showing **try the look**. We let user upload a photo and we supper impose that image with the apparel image using GAN networks.
+    <p align='center'>
+          <img src="https://i.imgur.com/IUfW9Mr.jpg">
+    </p>
+    <p align='center'>
+          <img src="https://i.imgur.com/gpW9q68.jpg">
+    </p>
+    <p align='center'>
+          <img src="https://i.imgur.com/VN7nFIG.jpg">
+    </p>
+    <p align='center'>
+          <img src="https://i.imgur.com/DTdkK53.jpg">
+    </p>
+    
+* **Try the look! :** <br> We are currently working towards showing **try the look**. We let the user upload a photo and we supper impose that image with the apparel image using GAN networks.
 
 <br>
 <br>
-      <p align='center'>
-            <img src="https://i.imgur.com/iefatdL.png">
-      </p>
-      [paper link](https://arxiv.org/pdf/1906.01347.pdf)
-                                                                                                                 
- # Course Structure 
- 
+      <p align='center'>
+            <img src="https://i.imgur.com/iefatdL.png">
+      </p>
+      [paper link](https://arxiv.org/pdf/1906.01347.pdf)
+                                                                                                                 
+ # Course Structure 
+ 
 We are going to discuss the theoretical concepts and the coding parts. 
-You don't have to have a solid background on mathematics and python coding. Interested people can go through topics like linear algebra, probability, statistical concepts, python introduction etc.
-      [great source](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists)          
-These sessions are designed to get you up and running with the ml/deep learning concepts. Following are topics we will cover in detail.
+You don't have to have a solid background in mathematics and python coding. Interested people can go through topics like linear algebra, probability, statistical concepts, python introduction, etc.
+      [great source](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists)          
+These sessions are designed to get you up and running with the ml/deep learning concepts. The following are topics we will cover in detail.
 
 * Introduction to Machine Learning
-  
-  * Linear Regression 
-  * Logistic Regression
-  * K-Means Clustering
-  * Perceptron and Neural Networks
+  
+  * Linear Regression 
+  * Logistic Regression
+  * K-Means Clustering
+  * Perceptron and Neural Networks
 
 * Deep Learning
-    * Backpropagation algorithm
-    * Convolutional neural network
-    * Simple classification on MNIST Dataset using CNN and then some real life classification problems
-    * FACENet, for Face Recognition
+    * Backpropagation algorithm
+    * Convolutional neural network
+    * Simple classification on MNIST Dataset using CNN and then some real-life classification problems
+    * FACENet, for Face Recognition
 
-Depending on the response we get from you guys we will add more advance topics like 
-* How do you actually write a cnn from scratch
-* How to train  segmentation , object detection models(models like [YOLO](https://pjreddie.com/darknet/yolo/), [Retinanet](https://github.com/fizyr/keras-retinanet), [Deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab))
+Depending on the response we get from you guys we will add more advanced topics like 
+* How do you actually write a CNN from scratch
+* How to train  segmentation , object detection models(models like [YOLO](https://pjreddie.com/darknet/yolo/), [Retinanet](https://github.com/fizyr/keras-retinanet), [Deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab))
 * Generative adversarial networks([GANS](https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/))
-
 
 
 
