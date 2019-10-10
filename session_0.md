@@ -83,22 +83,20 @@ The book presents Hebb’s theories on neuron excitement and communication betwe
 <br>
 <br>
 
+<!--
 * **The Nearest Neignbor Algorithm(1967):** The **Nearest Neighbor** algorithm was written, allowing computers to begin using very basic pattern recognition.
 When the program was given a new object, it compared it with the existing data and classified it to the nearest neighbour, meaning the most similar object in memory.
 This algorithm was used for mapping routes and was one of the earliest algorithms used in finding a solution to the **Traveling Salesperson’s** problem of finding the most efficient route.
 Using it, a salesperson enters a selected city and repeatedly has the program visit the nearest cities until all have been visited.
-
 <br>
-
 <h4 align="center"> The Thinking Machine(Artificial Intelligence in the 1960s)</h4>
 <p align='center'><a href="https://www.youtube.com/watch?time_continue=167&v=aygSMgK3BEM" target="_blank">
 <img src="https://i.ibb.co/4VMHGsK/thinking-machine.png" width="400">
 </a></p>
-
 [YouTube Link](https://www.youtube.com/watch?time_continue=167&v=aygSMgK3BEM)
-
 <br>
 <br>
+-->
 
 * **The years of 1970s and early 1980s:** In the late 1970s and early 1980s, neural network research was abandoned by computer science and AI researchers. 
 The Machine Learning industry, which included a large number of researchers and technicians, was reorganized into a separate field and struggled for nearly a decade.
@@ -168,15 +166,13 @@ Hand-picking these researchers, Hinton aimed to create a team of world-class thi
 <br>
 <br>
 
+<!--
 * **CNN, LeNet5 and AlexNet and use of GPU in Machine Learning(2012):** It is the year 1994, and this is one of the very first convolutional neural networks, and what propelled the field of Deep Learning. This pioneering work by Yann LeCun was named LeNet5 after many previous successful iterations since the year 1988.
-
 <p align='center'><img src="https://cdn-images-1.medium.com/max/800/0*V1vb9SDnsU1eZQUy.jpg"></p>
-
-###### The Gap
 In the years from 1998 to 2010 neural network were in incubation. Most people did not notice their increasing power, while many other researchers slowly progressed. More and more data was available because of the rise of cell-phone cameras and cheap digital cameras. And computing power was on the rise, CPUs were becoming faster, and GPUs became a general-purpose computing tool. Both of these trends made neural network progress, albeit at a slow rate. Both data and computing power made the tasks that neural networks tackled more and more interesting. And then it became clear…
+-->
 
-###### The AlexNet
-In 2012, Alex Krizhevsky released AlexNet which was a deeper and much wider version of the LeNet and won by a large margin the difficult ImageNet competition.
+* **The AlexNet and use of GPU in Machine Learning (2012):** In 2012, Alex Krizhevsky released AlexNet which was a deeper and much wider version of the LeNet and won by a large margin the difficult ImageNet competition.
 AlexNet is considered one of the most influential papers published in computer vision, having spurred many more papers published employing CNNs and GPUs to accelerate deep learning.
 
 <!--
@@ -201,7 +197,7 @@ According to the AlexNet paper, Ciresan's earlier net is "somewhat similar." Bot
 <br>
 
 * **DeepMind (2014):** This company was bought by Google, and can play basic video games to the same levels as humans. In 2016, it managed to beat a professional at the game Go, which is considered to be one the world’s most difficult board games.
-[YouTube Link](https://www.youtube.com/watch?v=jGyCsVhtW0M)
+[YouTube Link](https://www.youtube.com/watch?v=8dMFJpEGNLQ)
 
 <br>
 <br>
@@ -245,7 +241,6 @@ Yann LeCun, Facebook’s chief AI scientist, has called GANs “the coolest idea
 <!--
 The Importance of GPUs
 Nvidia is behind one of the largest conferences on AI, and this is for a good reason - GPUs are extremely important in the world of machine learning. GPUs have around 200 times more processors per chip than CPUs. The flip side of this, however, is that whereas CPUs can perform any kind of computation, GPUs are tailored to only specific use cases, where operations (addition, multiplicaiton, etc.) have to be performed on vectors, which are essentially lists of numbers. A CPU would perform each operation on each number in the vector syncronously, i.e. one by one. This is slow. A GPU would perform operations on each number in the vector in parallel i.e. at the same time.
-
 Vectors and matrices, which are grids of numbers (or lists of vectors) are essential to machine learning applications, and because of this, they are smaller, hence why more can be fit on one chip. Nvidia are credited with making the world’s first GPU, the GeForce 256 in 1999. At that time, launching the product was a risk as it was an entirely new kind of product. However, due to the use of vector calculations in video games, GPUs proliferated, as video games benefitted from a huge leap in performance. It was years later, than mathematicians, scientists and engineers realised that GPUs could be used to improve the speed of computations used in their discipline, due to the use of vectors. This led to the realisation that GPUs would make neural networks, a very old idea, leaps and bounds more practical. This led to GPU companies particularly Nvidia benefitting hugely from the “machine learning revolution”. Nvidia’s stock price has increased roughly 18-fold since 2012, the year in which the importance of GPUs in machine learning was demonstrated by AlexNet.
 
 -->
