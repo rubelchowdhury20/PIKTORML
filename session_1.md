@@ -1,9 +1,11 @@
+
 <h1>Session 1</h1>
 <h2>Supervised Learning</h2>
 <p>
-In supervised machine learning we train the machine learning model with previously **labeled** data. Model learns from the previously labeled data and predicts on similar kind of new data(which is not labelled).
 
-The term **supervised** itself says that model is build up with a supervision before it starts predicting on unforeseen data.
+In supervised machine learning we train the machine learning model with previously  __labelled__ data. Model learns from the previously labeled data and predicts on similar kind of new data(which is not labelled).
+
+The term __supervised__ itself says that model is build up with a supervision before it starts predicting on unforeseen data.
 </p>
 
 <h2>Examples of Supervised Learning:</h2>
@@ -55,7 +57,7 @@ https://raw.githubusercontent.com/astikanand/techblogs/master/5_machine_learning
 
 We have a plot of cost function vs theta0 and we can find the value of theta for which cost function is minimum
 
-if we consider both theta0 and theta1, we get a **bow** shaped cost funciton graph and we try to find values of theta0 and theta1 for which cost function is minimum
+if we consider both theta0 and theta1, we get a __bow__ shaped cost funciton graph and we try to find values of theta0 and theta1 for which cost function is minimum
 <p align='center'><img src="https://i.ytimg.com/vi/riplXsNf_zs/maxresdefault.jpg" width = "600"/></p>
 
 Let's talk about gradient descent:
