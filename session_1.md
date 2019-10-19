@@ -1,3 +1,5 @@
+<h5 align="center"> Note:The assignment 1 is at the end of the document scroll down for instructions</h5>
+
 
 <h1>Session 1</h1>
 
@@ -38,14 +40,13 @@ Similarly, the prediction of price can be in words, viz., 'very costly', 'costly
 <br>
 
 <h2>Unsupervised Learning</h2>
-<p>
 
 **Please go through what is labelled and ublabelled data to understand unsupervised learning**
 
 Unsupervised learning is the training of an artificial intelligence (AI) algorithm using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance.
 
 In unsupervised learning, an AI system is presented with unlabeled, uncategorised data and the system’s algorithms act on the data without prior training. The output is dependent upon the coded algorithms. Subjecting a system to unsupervised learning is one way of testing AI.
-</p>
+
 <h2>Examples of unsupervised Learning:</h2>
 <ul>
     <li>Clustering:
@@ -106,12 +107,15 @@ This is what happens Actually:
 [Good read](https://machinelearningmastery.com/linear-regression-tutorial-using-gradient-descent-for-machine-learning/)
 
 **Please look for medium articles for linear regression with gradient decent**
-<br>
-<ul>Assignment:</ul>
-    <li>
-     1. Write an md file to describe at least 2 real life examples of supervised/ unsupervised learning, clustering , classification problems
-    </li>
-    <li>
-    1. coding assignment:
-    </li>
-</ul>
+<!-- <br> -->
+
+Assignment_1:
+
+1. Add a folder Assignment_1 to PIKTORML git repo and Write an md file (There should be only one md file in this folder, **Assignment\_1a.md** (remove any README.md file if exists in Assignment_1 folder)) to describe at least 2 real life examples of supervised/unsupervised learning, clustering,classification problems (explain clearly and elaboratively)
+2. Coding assignment:
+    1. Open this link '[Assignment_1b](https://colab.research.google.com/drive/1gsxnZit4i3Oi3ODegicwh230ZfcRXKv7)' and make a copy to your google drive. Open it in Google Colab and Do the required as instructed in the file which is to run each cell and add comments and explaining the code.
+    2. Open this link '[Assignment_1c](https://colab.research.google.com/drive/1Oty3RZ-3NPzECWVjdufVFgsFmWdzsFff)' and make a copy to your google drive. Open it in Google Colab and Do the required as instructed in the file.
+3. Save these files in Assignment_2 folder of your local git repo.
+4. Add and Commit them to git
+5. Push the changes to git
+6. Submit the Assignment_1 git folder link to LMS Assignment_1 submit link
