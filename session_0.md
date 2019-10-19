@@ -1,3 +1,6 @@
+<h5 align="center"> Note:The assignment 0 is at the end of the document scroll down for instructions</h5>
+
+
 <h1 align="center"> Introduction to Artificial Intelligence and Machine Learning</h1>
 <br>
 <p align='center'><img widht="900" src="https://cdn.business2community.com/wp-content/uploads/2018/01/what-is-machine-learning-dilbert.png"></p>
@@ -366,73 +369,8 @@ This is an astounding result. Six percent more and the AI would have been exactl
 # VERA
 
 
-## What is the problem statement
+## Removed due to privacy concerns
 
-Building a successful recommender system depends on understanding both the dimensions of people's preferences as well as their dynamics. Social trends are ever-changing. Not only it is subjective to a person but it could have a lot of features.
-
-## What is vera trying to solve
-
-Vera is in true sense a personalized recommendation system. You go to a shop, select apparel and hang it in the vera setup. That's all.
-
-Vera will show you a recommendation based on that apparel. Not only that, but It will also show what is currently trendy on the market based on that apparel. It will also show you styles that go with this apparel.
-
-## How are we tackling the problem
-
-* **User walks in a store selects apparel and hangs it on the vera setup**
-
-<br>
-
-* **Crop top and bottom:** <br>  We crop out the parts of the image by running it through our object detection algorithm.
-
-<br>
-<br>
-
-<p align='center'><img src="https://i.imgur.com/ipJCG8k.jpg" width = "600"/></p>
-
-[How does object detection look like](https://streamable.com/wc8l4)
-
-<br>
-
-
-* **Colour of the apparel:** <br> We then find the segmentation map of the image. Segmentation map helps us find the color of the cropped image
-
-<br>
-<p align='center'><img src="https://i.imgur.com/Yy8ReW6.png"></p>
-      
-[How does segmentation look like](https://www.youtube.com/watch?v=akK5ui-vel0)
-
-<br>
-<br>
-
-* **Find the top similar images from the inventory:**<br>
-
-Now that we have the cropped images, we generate the embeddings of that image. With the embeddings information along with the color, we feed it to our deep learning algorithm to give us back the top similar images as a recommendation.
- Along with recommendations from inventory, we also show the current social trends.
- 
-<br>
-    <p align='center'>
-          <img src="https://i.imgur.com/IUfW9Mr.jpg">
-    </p>
-    <p align='center'>
-          <img src="https://i.imgur.com/gpW9q68.jpg">
-    </p>
-    <p align='center'>
-          <img src="https://i.imgur.com/VN7nFIG.jpg">
-    </p>
-    <p align='center'>
-          <img src="https://i.imgur.com/DTdkK53.jpg">
-    </p>
-    
-* **Try the look! :** <br> We are currently working towards showing **try the look**. We let the user upload a photo and we supper impose that image with the apparel image using GAN networks.
-
-<br>
-<br>
-
-      <p align='center'>
-            <img src="https://i.imgur.com/iefatdL.png">
-      </p>
-      
-[paper link](https://arxiv.org/pdf/1906.01347.pdf)
                                                                                                                  
 # Course Structure 
  
@@ -453,12 +391,20 @@ These sessions are designed to get you up and running with the ml/deep learning 
   * Simple classification on MNIST Dataset using CNN and then some real-life classification problems
   * FACENet, for Face Recognition
 
-Depending on the response we get from you guys we will add more advanced topics like 
+Depending on the response we get from you guys we will add more advanced topics like:
+
 * How do you actually write a CNN from scratch
 * How to train  segmentation , object detection models(models like [YOLO](https://pjreddie.com/darknet/yolo/), [Retinanet](https://github.com/fizyr/keras-retinanet), [Deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab))
 * Generative adversarial networks([GANS](https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/))
 
+# Assignment 0
 
-
-
-
+* Create a public Git repository named "PIKTORML" to which add a folder named "Assignment_0"
+* Add Assignment_0.md file to this folder ([markdown tutorial link](https://www.markdowntutorial.com/))
+* Answer the following Questions in the 'md' file created 
+	* What is the definition of Machine Learning according to Arthur Samuel ? ( Hint : Use Internet) ---> 10points
+	* What is the definition of Machine Learning according to Tom Mitchell ? ( Hint : Use Internet)  ---> 20points
+	* Using an example of machine learning problem (Anything that you can pose) explain it using the terms 
+	in Question2 in your own words(30 points)
+* Push your changes to Git
+* Submit the "Assignment_0" online folder link to Canvas Instructure 'Submit Assignment' link
