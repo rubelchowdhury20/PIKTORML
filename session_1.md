@@ -70,10 +70,11 @@ It is a function that measures the performance of a Machine Learning model for g
 <p align='center'><img src="https://billyinn.files.wordpress.com/2014/07/e5b18fe5b995e5bfabe785a7-2014-07-12-e4b88be58d8812-53-04.png" width = "600"/></p>
 <br>
 </p>
+
 <h3>Linear regression with one variable :</h3>
 Let's say theta0 is 0, we have only one variable. Let's try to plot a graph of hypothesis vs theta0 and Cost function vs theta0.
-<p align='center'><img src="
-https://raw.githubusercontent.com/astikanand/techblogs/master/5_machine_learning/assets/cost_function_intuition_1.png" width = "600"/></p>
+
+<p align='center'><img src="https://raw.githubusercontent.com/astikanand/techblogs/master/5_machine_learning/assets/cost_function_intuition_1.png" width = "600"/></p>
 
 [The above image explanation](https://www.youtube.com/watch?v=yR2ipCoFvNo&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=6)
 
