@@ -119,3 +119,7 @@ Assignment_1:
 4. Add and Commit them to git
 5. Push the changes to git
 6. Submit the Assignment_1 git folder link to LMS Assignment_1 submit link
+
+# Session_1 Video
+
+[Session1](https://www.youtube.com/watch?v=jZHwgHRE3dM&t=4346s)

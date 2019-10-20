@@ -408,3 +408,8 @@ Depending on the response we get from you guys we will add more advanced topics 
 	in Question2 in your own words(30 points)
 * Push your changes to Git
 * Submit the "Assignment_0" online folder link to Canvas Instructure 'Submit Assignment' link
+
+
+# Session_0 Video
+
+[Session0](https://www.youtube.com/watch?v=nbaeDuh_HvM&feature=youtu.be)
