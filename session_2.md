@@ -38,10 +38,7 @@ __________________________________________________________________ -->
 <details>
   <summary>CLICK TO SEE THE PROBLEM</summary>
   
-$$
-  f(x) = \int_{-\infty}^\infty
-    \hat f(\xi)e^{2 \pi i \xi x}\ d\xi
-$$
+<p align="center"><img src="./images/session_2/lol.png"></p>
 </details>
 
 <details>
