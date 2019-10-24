@@ -29,6 +29,9 @@ __________________________________________________________________ -->
 
 <h1 align="center">Maths Again !!!</h1>
 
+<p align="center"><img src="https://media.giphy.com/media/l3fZLMbuCOqJ82gec/giphy.gif"></p>
+
+
 **<h2 align="center">Everyone Grab a Pen and Paper</h2>**
 </br>
 </br>
