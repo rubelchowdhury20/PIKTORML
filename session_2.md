@@ -27,24 +27,6 @@ __________________________________________________________________ -->
 
 
 
-
-
-
-<head>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-	<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
-
-	<script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
-
-</head>
-
-
-
-
-
-
 <h1 align="center">Maths Again !!!</h1>
 
 **<h2 align="center">Everyone Grab a Pen and Paper</h2>**
@@ -66,7 +48,7 @@ $$
   <summary>REVEAL</summary>
 
 
-**<p align="center">JUST KIDDING WE ARE NOT GONNA SOLVE THE ABOVE EQUATION</p>**  
+**<p align="center">NO WE ARE NOT GONNA SOLVE THE ABOVE EQUATION</p>**  
 </details>
 
 ____________________________
@@ -87,23 +69,13 @@ ____________________________
 
 **lets look at an example where the Row matrix is quantity of oranges, apples and beers**
 
-$$
-\begin{bmatrix}
-   5 & 6 & 10
-\end{bmatrix}
-$$
+**<p align='center'>[5,6,10]</p>**
 
 **This is a 1x3 Matrix**
 
 **Now lets construct a matrix with prices of the above items**
 
-$$
-\begin{bmatrix}
-    20 \\
-    10 \\
-    4 
-\end{bmatrix}
-$$
+**<p align='center'>[20,10,4]'</p>**
 
 This is a 3x1 marix
 Now the Product of the above two gives us ??? (The total Amount to be paid)
