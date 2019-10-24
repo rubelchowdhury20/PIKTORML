@@ -130,3 +130,5 @@ STEPS
 - [ ] Redefining MSE to MQE
 - [ ] Getting the Solution
 - [ ] CODE Demo
+
+<p align="center"><img src="./images/session_2/linreg.jpg"></p>
