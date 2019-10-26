@@ -17,7 +17,7 @@
 
 __________________________________________________________________ -->
 
-
+<h5 align="center"> Note:The assignment 2 is at the end of the document scroll down for instructions</h5>
 
 
 
@@ -41,7 +41,7 @@ __________________________________________________________________ -->
 <details>
   <summary>CLICK TO SEE THE PROBLEM</summary>
   
-<p align="center"><img src="./images/session_2/lol.png"></p>
+<p align="center"><img src="https://i.imgur.com/yspl0TX.png"></p>
 </details>
 
 <details>
@@ -55,12 +55,12 @@ ____________________________
 
 <h1 align="center">MATRICES</h1>
 
-<p align="center"><img src="./images/session_2/a.png"></p>
-<p align="center"><img src="./images/session_2/b.png"></p>
-<p align="center"><img src="./images/session_2/c.png"></p>
-<p align="center"><img src="./images/session_2/mult.png"></p>
-<p align="center"><img src="./images/session_2/inv.png"></p>
-<p align="center"><img src="./images/session_2/d.png"></p>
+<p align="center"><img src="https://imgur.com/qYaQ92Y.png"></p>
+<p align="center"><img src="https://imgur.com/atJmJuL.png"></p>
+<p align="center"><img src="https://imgur.com/AcwsMHs.png"></p>
+<p align="center"><img src="https://imgur.com/8cMdMfo.png"></p>
+<p align="center"><img src="https://imgur.com/LRswTLV.png"></p>
+<p align="center"><img src="https://imgur.com/8Xamj6e.png"></p>
 
 </br>
 <p align='center'>All this is okay but what is the Real life use-case</p>
@@ -86,7 +86,7 @@ ________________________
 
 <h1 align='center'>Now let us look at Transformations !</h1>
 
-<p align="center"><img src="./images/session_2/rot.png" width="1400"></p>
+<p align="center"><img src="https://imgur.com/KTVLB8P.png" width="1400"></p>
 
 <h2 align="center">What about Translation then ! Ponder !!</h2>
 
@@ -94,14 +94,14 @@ ______________________________________
 
 <h1 align='center'>Limits and Derivatives !</h1>
 
-<p align="center"><img src="./images/session_2/l1.png"></p>
-<p align="center"><img src="./images/session_2/l2.png"></p>
-<p align="center"><img src="./images/session_2/l3.png"></p>
-<p align="center"><img src="./images/session_2/l4.png"></p>
-<p align="center"><img src="./images/session_2/l5.png"></p>
-<p align="center"><img src="./images/session_2/l6.png"></p>
-<p align="center"><img src="./images/session_2/l7.png"></p>
-<p align="center"><img src="./images/session_2/l8.png"></p>
+<p align="center"><img src="https://imgur.com/TZm1lx5.png"></p>
+<p align="center"><img src="https://imgur.com/bCjJ7mi.png"></p>
+<p align="center"><img src="https://imgur.com/6sPIv0W.png"></p>
+<p align="center"><img src="https://imgur.com/hazfRml.png"></p>
+<p align="center"><img src="https://imgur.com/YKfpIDF.png"></p>
+<p align="center"><img src="https://imgur.com/k2tXKQi.png"></p>
+<p align="center"><img src="https://imgur.com/9pXmwIG.png"></p>
+<p align="center"><img src="https://imgur.com/TdaoTbK.png"></p>
 
 <h1 align='center'> All this is cool! </br> BUT </br> What the Heaven is a Derivative !! </h1>
 
@@ -114,8 +114,8 @@ ____________________
 <h1 align='center'>Now let us look at Partial Derivatives !</h1>
 
 
-<p align="center"><img src="./images/session_2/pd1.png"></p>
-<p align="center"><img src="./images/session_2/pd2.png"></p>
+<p align="center"><img src="https://imgur.com/94FqABR.png"></p>
+<p align="center"><img src="https://imgur.com/62l2Cgu.png"></p>
 <!-- <p align="center"><img src="./images/session_2/pd3.png"></p> -->
 
 ____________________
@@ -134,7 +134,7 @@ STEPS
 - [ ] Getting the Solution
 - [ ] CODE Demo
 
-<p align="center"><img src="./images/session_2/linreg.jpg"></p>
+<p align="center"><img src="https://i.imgur.com/R3ExFtf.jpg"></p>
 
 Assignment_2:
 
