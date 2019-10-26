@@ -135,3 +135,13 @@ STEPS
 - [ ] CODE Demo
 
 <p align="center"><img src="./images/session_2/linreg.jpg"></p>
+
+Assignment_2:
+
+1. Coding assignment:
+    1. Open this link '[Assignment_2b](https://colab.research.google.com/drive/1nS0HcpmvZR-rD4wExn3EYIbxRp1dFkKP)' and make a copy to your google drive. Open it in Google Colab and Do the required as instructed in the file which is to run each cell and add comments and explaining the code.
+2. Submit the link to LMS Assignment_2 submit link
+
+# Session_2 Video
+
+[Session2](https://www.youtube.com/watch?v=4shHOziIj1g&t=6s)
