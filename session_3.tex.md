@@ -206,9 +206,13 @@ $$
 
 $$
 Cost\ = 0\ for\ h_\theta(x) = 1\\
+$$
 
+$$
 Cost\ = \infin\ for\ h_\theta(x) = 0\\
+$$
 
+$$
 If\ h_\theta(x)=0,\ it\ is\ similar\ to\ predicting\ P(y=1|x;\theta) = 0
 $$
 
@@ -220,11 +224,16 @@ Cost(h_\theta(x),y) = -\log(1-h_\theta(x))
 $$
 
 <img align='center' width='500px' src="https://media.geeksforgeeks.org/wp-content/uploads/20190424191536/For_cost_func_y0.jpg"/>
+
 $$
 Cost\ = 0\ for\ h_\theta(x) = 0\\
+$$
 
+$$
 Cost\ = \infin\ for\ h_\theta(x) = 1\\
+$$
 
+$$
 If\ h_\theta(x)=1,\ it\ is\ similar\ to\ predicting\ P(y=0|x;\theta) = 0
 $$
 
@@ -243,50 +252,68 @@ $$
 ##### Derivation of Gradient Descent Formula
 
 
+
 $$
 h_\theta(x) = \sigma(z) = a\\
+$$
 
+$$
 z = \theta_0x_0 + \theta_1x_1 + \theta_2x_2 + ...\\
+$$
 
-\\~\\~\\
-
+$$
 Loss = L(h_\theta(x),y)\\
 
 \\~\\~\\
-
+$$
+$$
 \frac{\partial{L}}{\partial{\theta_0}}=\frac{\partial{L}}{\partial{a}}\frac{\partial{a}}{\partial{z}}\frac{\partial{z}}{\partial{\theta_0}}\\
 
 \\~\\
+$$
 
+$$
 \begin{align}
 \frac{\partial{L}}{\partial{a}} & = \frac{\partial{(-y\log{a} - (1-y)\log{1-a})}}{\partial{a}}\\
 
 &=-y\frac{1}{a} -(-1)\frac{1-y}{a-a}\\
 
 \end{align}\\
+$$
 
+$$
 \fbox{$
 \frac{\partial{L}}{\partial{a}}=\frac{-y}{a} + \frac{1-y}{1-a}
 $}\\
+$$
 
+$$
 \fbox{$
 \frac{\partial{a}}{\partial{z}} = a(1-a)
 $}\\
+$$
 
+$$
 \fbox{$
 \frac{\partial{a}}{\partial{\theta_0}} = x_0
 $}\\
 
 \\~\\~\\
+$$
 
+$$
 \frac{\partial{L}}{\partial{\theta_0}} = (a-y)x_1\\
+$$
 
+$$
 \fbox{$
 \frac{\partial{L}}{\partial{\theta_0}} = \sum_{i=1}^{m}(h_\theta(x_i)-y)x_1
 $}\\
 
 \\~\\~\\
+$$
 
+$$
 \fbox{$
 \theta_i := \theta_i -\alpha\frac{\partial{L}}{\partial{\theta_i}}
 $}\\
