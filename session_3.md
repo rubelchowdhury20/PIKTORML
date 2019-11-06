@@ -273,4 +273,3 @@ Loss = L(h_\theta(x),y)\\
 \theta_i := \theta_i -\alpha\frac{\partial{L}}{\partial{\theta_i}}
 }\\
 $$
-
