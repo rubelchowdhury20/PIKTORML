@@ -1,6 +1,5 @@
 <h1 align='center'>Session 3</h1>
 
-
 ### Linear Regression Recap:
 
 Linear regression is a kind of statistical analysis that attempts to show a relationship between two variables.
