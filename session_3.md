@@ -1,10 +1,9 @@
 <h1 align='center'>Session 3</h1>
-<h2 align='center'>Recap</h2>
-### The Linear Regression:
+### Linear Regression Recap:
 
 Linear regression is a kind of statistical analysis that attempts to show a relationship between two variables.
 
-The core idea is to obtain a line that best fits the data. The best fit line is the one for which total prediction error (all data points) are as small as possible. Error is the distance between the point to the regression line.
+The core idea is to obtain a line that best fits the data. The best fit line is the one for which total prediction error (all data points) are as small as possible. Error is the distance between the points to the regression line.
 
 
 
@@ -40,7 +39,7 @@ $$
 
 #### Gradient Descent:
 
-Gradient descent is a first-order iterative optimisation algorithm for finding the minimum of a function. To find a local minimum of a function using gradient descent, one takes steps proportional to the negative of the gradient (or approximate gradient) of the function at the current point.
+Gradient descent is a first-order iterative optimization algorithm for finding the minimum of a function. To find a local minimum of a function using gradient descent, one takes steps proportional to the negative of the gradient (or approximate gradient) of the function at the current point.
 
 $$
 \theta_j := \theta_j - \alpha \frac{\partial}{\partial\theta_j} J(\theta_0, \theta_1)
@@ -64,8 +63,7 @@ $$
 
 
 
-Here we can see how the tan(x) value, that is nothing but our gradient which is varying based on the angle or theta value.
-
+Here we can see how the tan(x) value, that is nothing but our gradient which is varying based on the angle.
 
 
 ###### Deriving the Gradient Descent Formula:
@@ -73,8 +71,8 @@ Here we can see how the tan(x) value, that is nothing but our gradient which is 
 $$
 \begin{align}
 \frac{\partial}{\partial \theta_j} {J_\theta} & = \frac{\partial}{\partial \theta_j} \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x_i) - y)^2 \\
- & = \frac{1}{m} \sum_{i=1}^{m}(h_\theta(x_i) - y)\frac{\partial}{\partial\theta_j}(h_\theta(x_i)-y) \\
- & = \frac{1}{m}(h_\theta(x_i)-y)x_i
+ & = \frac{1}{m} \sum_{i=1}^{m}(h_\theta(x_i) - y)\frac{\partial}{\partial\theta_j}(h_\theta(x_i)-y) \\
+ & = \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x_i)-y)x_i
 \end{align}
 $$
 
@@ -104,9 +102,9 @@ Logistic regression is a statistical model that in its basic form uses a logisti
 
 ##### Why don't we use Linear Regression to solve these classification problems?
 
-Let's say we have a data set which contains a list of customers and a label to determine if the customer had purchased certain product. In the data set, there are 20 customers. 10 customers age between 10 to 19 who purchased, and 10 customers age between 20 to 29 who didn't purchase. "Purchased" is a binary label denoted by 0 and 1, where 0 denote "customer didn't make a purchase" and 1 denote "customer made a purchase".
+Let's say we have a data set that contains a list of customers and a label to determine if the customer had purchased a certain product. In the data set, there are 20 customers. 10 customers age between 10 to 19 who purchased, and 10 customers age between 20 to 29 who didn't purchase. "Purchased" is a binary label denoted by 0 and 1, where 0 denote "customer didn't make a purchase" and 1 denote "customer made a purchase".
 
-If we plot the graph for linear regression we will get the red line which best fits the model.
+If we plot the graph for linear regression we will get the red line that best fits the model.
 
 
 
@@ -116,7 +114,7 @@ Given any age, we will predict the value along Y-axis. If Y is greater than 0.5(
 
 
 
-Now the problem arises, when the data is imbalanced. Let's add 10 more customers, whose age is between 60 to 70. Let's train the network and try to find the best fit line.
+Now the problem arises when the data is imbalanced. Let's add 10 more customers, whose age is between 60 to 70. Let's train the network and try to find the best fit line.
 
 
 
@@ -124,7 +122,7 @@ Now the problem arises, when the data is imbalanced. Let's add 10 more customers
 
 Do you see the problem here?
 
-For few of the customers whose age is in the range of 20-30, the prediction will be wrong.
+For a few of the customers whose age is in the range of 20-30, the prediction will be wrong.
 
 If we use logistic regression, that's how it tries to solve the above problem.
 
@@ -134,11 +132,11 @@ If we use logistic regression, that's how it tries to solve the above problem.
 
 
 
-Now the question is how does it work??
+Now the question is, how does it work??
 
-The first requirement we can see here is that, the output here is not continuous like linear regression. The output here is binary that is either 0 or 1.
+The first requirement we can see here is that the output here is not continuous like linear regression. The output here is binary that is either 0 or 1.
 
-For that we will take the help of **Sigmoid Function**
+For that, we will take the help of **Sigmoid Function**
 
 
 
@@ -186,7 +184,7 @@ So, for Logistic Regression the cost function is
 $$
 Cost(h_\theta(x),y) = 
 \begin{cases}
--\log(h_\theta(x)),  & \text{if $y$=1} \\
+-\log(h_\theta(x)),  & \text{if $y$=1} \\
 -\log(1-h_\theta(x)), & \text{if $y$=0}
 \end{cases}
 $$
@@ -236,5 +234,43 @@ $$
 
 $$
 Cost(h_\theta(x),y) = -y\log(h_\theta(x)) - (1-y)\log(1-h_\theta(x))
+$$
+
+
+
+##### Derivation of Gradient Descent Formula
+
+
+$$
+h_\theta(x) = \sigma(z) = a\\
+where,\\
+z = \theta_0x_0 + \theta_1x_1 + \theta_2x_2 + ...\\
+\\~\\~\\
+Loss = L(h_\theta(x),y)\\
+\\~\\~\\
+\frac{\partial{L}}{\partial{\theta_0}}=\frac{\partial{L}}{\partial{a}}\frac{\partial{a}}{\partial{z}}\frac{\partial{z}}{\partial{\theta_0}}\\
+\\~\\
+\begin{align}
+\frac{\partial{L}}{\partial{a}} & = \frac{\partial{(-y\log{a} - (1-y)\log{1-a})}}{\partial{a}}\\
+&=-y\frac{1}{a} -(-1)\frac{1-y}{a-a}
+\end{align}\\
+\bbox[5px,border:2px solid red]{
+\frac{\partial{L}}{\partial{a}}=\frac{-y}{a} + \frac{1-y}{1-a}
+}\\
+\bbox[5px,border:2px solid red]{
+\frac{\partial{a}}{\partial{z}} = a(1-a)
+}\\
+\bbox[5px,border:2px solid red]{
+\frac{\partial{a}}{\partial{\theta_0}} = x_0
+}
+\\~\\~\\
+\frac{\partial{L}}{\partial{\theta_0}} = (a-y)x_1\\
+\bbox[5px,border:2px solid red]{
+\frac{\partial{L}}{\partial{\theta_0}} = \sum_{i=1}^{m}(h_\theta(x_i)-y)x_1
+}\\
+\\~\\~\\
+\bbox[5px,border:2px solid red]{
+\theta_i := \theta_i -\alpha\frac{\partial{L}}{\partial{\theta_i}}
+}\\
 $$
 
