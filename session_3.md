@@ -1,4 +1,6 @@
 <h1 align='center'>Session 3</h1>
+
+
 ### Linear Regression Recap:
 
 Linear regression is a kind of statistical analysis that attempts to show a relationship between two variables.
@@ -254,26 +256,23 @@ Loss = L(h_\theta(x),y)\\
 \frac{\partial{L}}{\partial{a}} & = \frac{\partial{(-y\log{a} - (1-y)\log{1-a})}}{\partial{a}}\\
 &=-y\frac{1}{a} -(-1)\frac{1-y}{a-a}
 \end{align}\\
-\bbox[5px,border:2px solid red]{
+\fbox{$
 \frac{\partial{L}}{\partial{a}}=\frac{-y}{a} + \frac{1-y}{1-a}
-}\\
-\bbox[5px,border:2px solid red]{
+$}\\
+\fbox{$
 \frac{\partial{a}}{\partial{z}} = a(1-a)
-}\\
-\bbox[5px,border:2px solid red]{
+$}\\
+\fbox{$
 \frac{\partial{a}}{\partial{\theta_0}} = x_0
-}
+$}\\
 \\~\\~\\
 \frac{\partial{L}}{\partial{\theta_0}} = (a-y)x_1\\
-\bbox[5px,border:2px solid red]{
+\fbox{$
 \frac{\partial{L}}{\partial{\theta_0}} = \sum_{i=1}^{m}(h_\theta(x_i)-y)x_1
-}\\
+$}\\
 \\~\\~\\
-\bbox[5px,border:2px solid red]{
+\fbox{$
 \theta_i := \theta_i -\alpha\frac{\partial{L}}{\partial{\theta_i}}
-}\\
+$}\\
 $$
 
-
-
-small changes to make texify work 
