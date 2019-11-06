@@ -1,5 +1,4 @@
 <h1 align='center'>Session 3</h1>
-
 ### Linear Regression Recap:
 
 Linear regression is a kind of statistical analysis that attempts to show a relationship between two variables.
@@ -247,7 +246,6 @@ $$
 $$
 h_\theta(x) = \sigma(z) = a\\
 
-where,\\
 z = \theta_0x_0 + \theta_1x_1 + \theta_2x_2 + ...\\
 
 \\~\\~\\
