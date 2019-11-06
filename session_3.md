@@ -1,4 +1,5 @@
 <h1 align='center'>Session 3</h1>
+
 ### Linear Regression Recap:
 
 Linear regression is a kind of statistical analysis that attempts to show a relationship between two variables.
@@ -212,7 +213,7 @@ So, for Logistic Regression the cost function is
 <p align="center"><img src="/tex/d5c9e5740a37e0ea5d7c9d666cbb8603.svg?invert_in_darkmode&sanitize=true" align=middle width=135.50035125pt height=16.438356pt/></p>
 <p align="center"><img src="/tex/4bd3eb9465d204d7392ecc68eab7e552.svg?invert_in_darkmode&sanitize=true" align=middle width=122.3739066pt height=36.2778141pt/></p>
 
-<p align="center"><img src="/tex/0dc169aa49af4c5e5a59c7f5bf1d61f6.svg?invert_in_darkmode&sanitize=true" align=middle width=107.2172442pt height=23.59366845pt/></p>
+
 
 <p align="center"><img src="/tex/f9d2e0d3855e0f54e32f2407ecff1a66.svg?invert_in_darkmode&sanitize=true" align=middle width=123.07900605pt height=32.96535495pt/></p>
 
