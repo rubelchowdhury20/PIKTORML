@@ -202,7 +202,7 @@ So, for Logistic Regression the cost function is
 
 
 
-##### Derivation of Gradient Descent Formula
+##### Derivation of Gradient Descent Formula:
 
 
 
@@ -227,3 +227,9 @@ So, for Logistic Regression the cost function is
 
 <p align="center"><img src="/tex/04a359310e07ddd32e6ded16ea89fc94.svg?invert_in_darkmode&sanitize=true" align=middle width=117.85069229999999pt height=32.95366635pt/></p>
 
+
+##### Assignment_3:
+1. Download the diabetes dataset from the given [link](https://drive.google.com/file/d/1QWfermhmtJ5bNkdug3-QbS5K55BI5ud1/view?usp=sharing)
+2. Open this link [linear regression](https://colab.research.google.com/drive/1Jk4oJDNpoy_M31HXumRPXK9ZwLx_TWhd) and make a copy in your google colab. Implement the linear regression on the diabetes dataset you have downloaded.
+3. Try to understand each and every line of the code and put comments for every lines about your understanding.
+4. Submit the link to LMS Assignment_3 submit link.
