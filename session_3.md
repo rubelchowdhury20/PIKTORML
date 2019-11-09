@@ -229,7 +229,7 @@ So, for Logistic Regression the cost function is
 
 
 ##### Assignment_3:
-1. Download the diabetes dataset from the given [link](https://drive.google.com/file/d/1QWfermhmtJ5bNkdug3-QbS5K55BI5ud1/view?usp=sharing)
+1. Download the diabetes dataset from the given [link](https://drive.google.com/file/d/1QWfermhmtJ5bNkdug3-QbS5K55BI5ud1/view?usp=sharing). in the dataset the target varible is nothing but "a quantitative measure of disease progression one year after baseline". You have to predict this value based on the other two parameters "BMI" and "Blood serum measurement".
 2. Open this link [linear regression](https://colab.research.google.com/drive/1Jk4oJDNpoy_M31HXumRPXK9ZwLx_TWhd) and make a copy in your google colab. Implement the linear regression on the diabetes dataset you have downloaded.
 3. Try to understand each and every line of the code and put comments for every lines about your understanding.
 4. Submit the link to LMS Assignment_3 submit link.
