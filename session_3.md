@@ -233,3 +233,7 @@ So, for Logistic Regression the cost function is
 2. Open this link [linear regression](https://colab.research.google.com/drive/1Jk4oJDNpoy_M31HXumRPXK9ZwLx_TWhd) and make a copy in your google colab. Implement the linear regression on the diabetes dataset you have downloaded.
 3. Try to understand each and every line of the code and put comments for every lines about your understanding.
 4. Submit the link to LMS Assignment_3 submit link.
+
+
+##### Session 3 video:
+[Session_3](https://www.youtube.com/watch?v=l-mO3FzcR4w)
