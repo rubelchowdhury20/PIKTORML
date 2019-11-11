@@ -1,5 +1,4 @@
 <h1 align='center'>Session 3</h1>
-
 ### Linear Regression Recap:
 
 Linear regression is a kind of statistical analysis that attempts to show a relationship between two variables.
@@ -12,30 +11,25 @@ The core idea is to obtain a line that best fits the data. The best fit line is 
 
 ###### Hypothesis:
 
-<p align="center"><img src="/tex/911580c5a1927b43cd9192f32b75fbee.svg?invert_in_darkmode&sanitize=true" align=middle width=120.67521674999999pt height=16.438356pt/></p>
-
+<p align="center"><img src="/images/session_3/911580c5a1927b43cd9192f32b75fbee.svg?invert_in_darkmode&sanitize=true" align=middle width=120.67521674999999pt height=16.438356pt/></p>
 ###### Parameters:
 
-<p align="center"><img src="/tex/26c773ba965e896d62ab0218c5c6afba.svg?invert_in_darkmode&sanitize=true" align=middle width=36.666674549999996pt height=14.611878599999999pt/></p>
-
+<p align="center"><img src="/images/session_3/26c773ba965e896d62ab0218c5c6afba.svg?invert_in_darkmode&sanitize=true" align=middle width=36.666674549999996pt height=14.611878599999999pt/></p>
 ###### Cost Function:
 
-<p align="center"><img src="/tex/b1ad1ec07b33ba49ea964257a743d1a3.svg?invert_in_darkmode&sanitize=true" align=middle width=257.36987925pt height=44.89738935pt/></p>
-
+<p align="center"><img src="/images/session_3/b1ad1ec07b33ba49ea964257a743d1a3.svg?invert_in_darkmode&sanitize=true" align=middle width=257.36987925pt height=44.89738935pt/></p>
 
 
 ###### Goal:
 
-<p align="center"><img src="/tex/4724967ddea467ca228b8f46943d9afc.svg?invert_in_darkmode&sanitize=true" align=middle width=92.96812634999999pt height=25.2967704pt/></p>
-
+<p align="center"><img src="/images/session_3/4724967ddea467ca228b8f46943d9afc.svg?invert_in_darkmode&sanitize=true" align=middle width=92.96812634999999pt height=25.2967704pt/></p>
 
 
 #### Gradient Descent:
 
 Gradient descent is a first-order iterative optimization algorithm for finding the minimum of a function. To find a local minimum of a function using gradient descent, one takes steps proportional to the negative of the gradient (or approximate gradient) of the function at the current point.
 
-<p align="center"><img src="/tex/4f91a8c5382708dcf5a0c8862793d5b4.svg?invert_in_darkmode&sanitize=true" align=middle width=307.03524389999995pt height=38.5152603pt/></p>
-
+<p align="center"><img src="/images/session_3/4f91a8c5382708dcf5a0c8862793d5b4.svg?invert_in_darkmode&sanitize=true" align=middle width=307.03524389999995pt height=38.5152603pt/></p>
 
 
 
@@ -57,11 +51,9 @@ Here we can see how the tan(x) value, that is nothing but our gradient which is 
 
 ###### Deriving the Gradient Descent Formula:
 
-<p align="center"><img src="/tex/62b1a4c7e1a53a835e29419021991ec1.svg?invert_in_darkmode&sanitize=true" align=middle width=309.99223529999995pt height=154.418187pt/></p>
-
+<p align="center"><img src="/images/session_3/62b1a4c7e1a53a835e29419021991ec1.svg?invert_in_darkmode&sanitize=true" align=middle width=309.99223529999995pt height=154.418187pt/></p>
 Therefore,
-<p align="center"><img src="/tex/a4612ca340775dfa321b326ff132851e.svg?invert_in_darkmode&sanitize=true" align=middle width=233.5511541pt height=44.89738935pt/></p>
-
+<p align="center"><img src="/images/session_3/a4612ca340775dfa321b326ff132851e.svg?invert_in_darkmode&sanitize=true" align=middle width=233.5511541pt height=44.89738935pt/></p>
 
 
 [Understanding Correlation Matrix](https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22)
@@ -141,14 +133,13 @@ So, if we put **Sigmoid Function** to the hypothesis of **Linear Regression** th
 
 #### Hypothesis Function:
 
-<p align="center"><img src="/tex/6f638a929f97ed064264ff102d256d66.svg?invert_in_darkmode&sanitize=true" align=middle width=195.20195804999997pt height=16.438356pt/></p>
-
+<p align="center"><img src="/images/session_3/6f638a929f97ed064264ff102d256d66.svg?invert_in_darkmode&sanitize=true" align=middle width=195.20195804999997pt height=16.438356pt/></p>
 
 
 #### Cost Function:
 
 Now for the cost function we could have simply used the cost function of linear regression which is 
-<p align="center"><img src="/tex/b1ad1ec07b33ba49ea964257a743d1a3.svg?invert_in_darkmode&sanitize=true" align=middle width=257.36987925pt height=44.89738935pt/></p>
+<p align="center"><img src="/images/session_3/b1ad1ec07b33ba49ea964257a743d1a3.svg?invert_in_darkmode&sanitize=true" align=middle width=257.36987925pt height=44.89738935pt/></p>
 But this cost function can't be used with Logistic Regression. It will result in a non-convex cost function. Which results in cost function with local minimas which is a very big problem for Gradient Descent to compute the global optima.
 
 
@@ -158,75 +149,56 @@ But this cost function can't be used with Logistic Regression. It will result in
 
 
 So, for Logistic Regression the cost function is
-<p align="center"><img src="/tex/bf5830e756314f84a4e9496b034aa945.svg?invert_in_darkmode&sanitize=true" align=middle width=320.19262935pt height=49.315569599999996pt/></p>
-
+<p align="center"><img src="/images/session_3/bf5830e756314f84a4e9496b034aa945.svg?invert_in_darkmode&sanitize=true" align=middle width=320.19262935pt height=49.315569599999996pt/></p>
 ##### Cost Function Explanation:
 
 
 
 ###### for y = 1,
 
-<p align="center"><img src="/tex/5286b1c69a709ae4e51b14faf0ca5a9a.svg?invert_in_darkmode&sanitize=true" align=middle width=212.913261pt height=16.438356pt/></p>
-
+<p align="center"><img src="/images/session_3/5286b1c69a709ae4e51b14faf0ca5a9a.svg?invert_in_darkmode&sanitize=true" align=middle width=212.913261pt height=16.438356pt/></p>
 <img align='center' width='500px' src='https://media.geeksforgeeks.org/wp-content/uploads/20190424192136/For_cost_func_y1_new1.jpg'/>
 
 
 
 
-<p align="center"><img src="/tex/8ffd94510f3349959c9f77607c92881b.svg?invert_in_darkmode&sanitize=true" align=middle width=175.9933989pt height=16.438356pt/></p>
-
-<p align="center"><img src="/tex/c9c093a18d2ad62ce4d5b02e29a15893.svg?invert_in_darkmode&sanitize=true" align=middle width=167.77418955pt height=16.438356pt/></p>
-
-<p align="center"><img src="/tex/9976fd91c41c3d3c7824bfd9a1169c72.svg?invert_in_darkmode&sanitize=true" align=middle width=426.3615015pt height=16.438356pt/></p>
-
+<p align="center"><img src="/images/session_3/8ffd94510f3349959c9f77607c92881b.svg?invert_in_darkmode&sanitize=true" align=middle width=175.9933989pt height=16.438356pt/></p>
+<p align="center"><img src="/images/session_3/c9c093a18d2ad62ce4d5b02e29a15893.svg?invert_in_darkmode&sanitize=true" align=middle width=167.77418955pt height=16.438356pt/></p>
+<p align="center"><img src="/images/session_3/9976fd91c41c3d3c7824bfd9a1169c72.svg?invert_in_darkmode&sanitize=true" align=middle width=426.3615015pt height=16.438356pt/></p>
 
 ###### for y = 0,
 
-<p align="center"><img src="/tex/703ed0b847abd2135ef6fc3782eb408f.svg?invert_in_darkmode&sanitize=true" align=middle width=241.22366234999998pt height=16.438356pt/></p>
-
+<p align="center"><img src="/images/session_3/703ed0b847abd2135ef6fc3782eb408f.svg?invert_in_darkmode&sanitize=true" align=middle width=241.22366234999998pt height=16.438356pt/></p>
 <img align='center' width='500px' src="https://media.geeksforgeeks.org/wp-content/uploads/20190424191536/For_cost_func_y0.jpg"/>
 
-<p align="center"><img src="/tex/c08fa364191e6c2b0e50dadcc92855bc.svg?invert_in_darkmode&sanitize=true" align=middle width=175.9933989pt height=16.438356pt/></p>
-
-<p align="center"><img src="/tex/bc3468138a31446a11713cacaf6580c0.svg?invert_in_darkmode&sanitize=true" align=middle width=167.77418955pt height=16.438356pt/></p>
-
-<p align="center"><img src="/tex/ed77a5f36265bb07d1524e1c97f15549.svg?invert_in_darkmode&sanitize=true" align=middle width=426.3615015pt height=16.438356pt/></p>
-
+<p align="center"><img src="/images/session_3/c08fa364191e6c2b0e50dadcc92855bc.svg?invert_in_darkmode&sanitize=true" align=middle width=175.9933989pt height=16.438356pt/></p>
+<p align="center"><img src="/images/session_3/bc3468138a31446a11713cacaf6580c0.svg?invert_in_darkmode&sanitize=true" align=middle width=167.77418955pt height=16.438356pt/></p>
+<p align="center"><img src="/images/session_3/ed77a5f36265bb07d1524e1c97f15549.svg?invert_in_darkmode&sanitize=true" align=middle width=426.3615015pt height=16.438356pt/></p>
 
 
 
 
 ##### Simplified Cost Function:
 
-<p align="center"><img src="/tex/dba505fdf7a3bc745557b072bdecd309.svg?invert_in_darkmode&sanitize=true" align=middle width=395.55580514999997pt height=16.438356pt/></p>
-
+<p align="center"><img src="/images/session_3/dba505fdf7a3bc745557b072bdecd309.svg?invert_in_darkmode&sanitize=true" align=middle width=395.55580514999997pt height=16.438356pt/></p>
 
 
 ##### Derivation of Gradient Descent Formula:
 
 
 
-<p align="center"><img src="/tex/0d0ab06a934c3b5d36b1a7afa372b8c9.svg?invert_in_darkmode&sanitize=true" align=middle width=122.74905224999999pt height=16.438356pt/></p>
-
-<p align="center"><img src="/tex/9cbf803def73c6f1846591fbfff02269.svg?invert_in_darkmode&sanitize=true" align=middle width=199.8398952pt height=13.881256950000001pt/></p>
-
-<p align="center"><img src="/tex/d5c9e5740a37e0ea5d7c9d666cbb8603.svg?invert_in_darkmode&sanitize=true" align=middle width=135.50035125pt height=16.438356pt/></p>
-<p align="center"><img src="/tex/4bd3eb9465d204d7392ecc68eab7e552.svg?invert_in_darkmode&sanitize=true" align=middle width=122.3739066pt height=36.2778141pt/></p>
+<p align="center"><img src="/images/session_3/0d0ab06a934c3b5d36b1a7afa372b8c9.svg?invert_in_darkmode&sanitize=true" align=middle width=122.74905224999999pt height=16.438356pt/></p>
+<p align="center"><img src="/images/session_3/9cbf803def73c6f1846591fbfff02269.svg?invert_in_darkmode&sanitize=true" align=middle width=199.8398952pt height=13.881256950000001pt/></p>
+<p align="center"><img src="/images/session_3/d5c9e5740a37e0ea5d7c9d666cbb8603.svg?invert_in_darkmode&sanitize=true" align=middle width=135.50035125pt height=16.438356pt/></p>
+<p align="center"><img src="/images/session_3/4bd3eb9465d204d7392ecc68eab7e552.svg?invert_in_darkmode&sanitize=true" align=middle width=122.3739066pt height=36.2778141pt/></p>
 
 
-
-<p align="center"><img src="/tex/f9d2e0d3855e0f54e32f2407ecff1a66.svg?invert_in_darkmode&sanitize=true" align=middle width=123.07900605pt height=32.96535495pt/></p>
-
-<p align="center"><img src="/tex/bc656ec5960096dc06a50a9a40553918.svg?invert_in_darkmode&sanitize=true" align=middle width=110.3730672pt height=31.309830749999996pt/></p>
-
-<p align="center"><img src="/tex/74f84e90ff280b550392112186a8a068.svg?invert_in_darkmode&sanitize=true" align=middle width=74.21502989999999pt height=32.95366635pt/></p>
-
-<p align="center"><img src="/tex/999cfe15cb2aeb8d9bf2274f58f21f59.svg?invert_in_darkmode&sanitize=true" align=middle width=114.78450225pt height=36.2778141pt/></p>
-
-<p align="center"><img src="/tex/a722d41f6fead7f417ca32770918c85e.svg?invert_in_darkmode&sanitize=true" align=middle width=199.77064965pt height=32.95366635pt/></p>
-
-<p align="center"><img src="/tex/04a359310e07ddd32e6ded16ea89fc94.svg?invert_in_darkmode&sanitize=true" align=middle width=117.85069229999999pt height=32.95366635pt/></p>
-
+<p align="center"><img src="/images/session_3/f9d2e0d3855e0f54e32f2407ecff1a66.svg?invert_in_darkmode&sanitize=true" align=middle width=123.07900605pt height=32.96535495pt/></p>
+<p align="center"><img src="/images/session_3/bc656ec5960096dc06a50a9a40553918.svg?invert_in_darkmode&sanitize=true" align=middle width=110.3730672pt height=31.309830749999996pt/></p>
+<p align="center"><img src="/images/session_3/74f84e90ff280b550392112186a8a068.svg?invert_in_darkmode&sanitize=true" align=middle width=74.21502989999999pt height=32.95366635pt/></p>
+<p align="center"><img src="/images/session_3/999cfe15cb2aeb8d9bf2274f58f21f59.svg?invert_in_darkmode&sanitize=true" align=middle width=114.78450225pt height=36.2778141pt/></p>
+<p align="center"><img src="/images/session_3/a722d41f6fead7f417ca32770918c85e.svg?invert_in_darkmode&sanitize=true" align=middle width=199.77064965pt height=32.95366635pt/></p>
+<p align="center"><img src="/images/session_3/04a359310e07ddd32e6ded16ea89fc94.svg?invert_in_darkmode&sanitize=true" align=middle width=117.85069229999999pt height=32.95366635pt/></p>
 
 ##### Assignment_3:
 1. Download the diabetes dataset from the given [link](https://drive.google.com/file/d/1QWfermhmtJ5bNkdug3-QbS5K55BI5ud1/view?usp=sharing). in the dataset the target varible is nothing but "a quantitative measure of disease progression one year after baseline". You have to predict this value based on the other two parameters "BMI" and "Blood serum measurement".
