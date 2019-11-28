@@ -79,7 +79,7 @@ Most of the shape information of an image is enclosed in edges. So first we dete
 [convolution explained](http://cs231n.github.io/convolutional-networks/)
 
 <p align='center'><img src="https://i.imgur.com/pxWkqtC.png"/></p>
-<h4>why 3x3 not or 5x5 7x7</h4>
+<h4>why 3x3 not 5x5 or 7x7</h4>
 
 1. Parameters are more so we need more computationally expensive hardware
 
