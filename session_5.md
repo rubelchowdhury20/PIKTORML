@@ -24,9 +24,6 @@ Based on this assumption how the eye works the previous answers are correct. Thi
 
 <p align='center'><img src="https://i.imgur.com/Cq2v4O6.png"/></p>
 
-<h3>How does brain visualize</h3>
-
-<p align='center'><img src="https://personal.utdallas.edu/~tres/integ/sen4/8_05.jpg"/></p>
 <h3>whats' a channel</h3>
 
 Images are usually represented as Height x Width x #Channels where #Channels is 3 for RGB images and 1 for grayscale images. Sometimes you see Width x Height x #Channels, but the third dimension is the “channels.”
@@ -36,6 +33,10 @@ Note: in deep learning libraries like caffe, the fundamental “activation” te
 Fom DNN perspective, channels are where similar features are gathered together
 
 [Images and Channels](http://www.georeference.org/doc/images_and_channels.htm)
+
+<h3>How does brain visualize</h3>
+
+<p align='center'><img src="https://personal.utdallas.edu/~tres/integ/sen4/8_05.jpg"/></p>
 
 <p align='center'><img src="https://i.imgur.com/OiWuTUi.png"/></p>
 
@@ -89,14 +90,16 @@ Most of the shape information of an image is enclosed in edges. So first we dete
 
 [Deciding optimal kernel size for CNN](https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363)
 
-<h4>Maxpooling</h4>
+<!-- <h4>Maxpooling</h4>
 
 Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network. Pooling layer operates on each feature map independently.
 The most common approach used in pooling is max pooling.
 
-<p align='center'><img src="https://mlblr.com/images/maxpool.gif"/></p>
+<p align='center'><img src="https://mlblr.com/images/maxpool.gif"/></p> -->
 
 
 <h4>Convolution Operation in network</h5>
 
 <p align='center'><img src="https://i.imgur.com/kWkya58.png"/></p>
+
+[Session_6 introduction to CNN](https://www.youtube.com/watch?v=qZEpu5zBIyE)
