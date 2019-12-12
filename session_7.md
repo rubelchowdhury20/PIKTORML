@@ -55,7 +55,7 @@ The output size is calculated as
 
 <p align='center'><img src="https://i.stack.imgur.com/YyCu2.gif"/></p>
 
-In keras the when we do convolution we mention the word valid(p = 0) or same (p=1)
+In keras when we do convolution we mention the word valid(p = 0) or same (p=1)
 
 
 
@@ -108,20 +108,21 @@ Now say we want to detect one red edge , one blue edge , one slant edge, one bla
 
 so finally if we do convlution on a 400x400x3 image and we want extract 100 types of image we will 100s of (3x3x3) filters(kernels). that is 3x3x3x100 . output will be 398x398x100
 
-<p align='center'><img src="https://predictiveprogrammer.com/wp-content/uploads/2018/06/convolve.gif"/></p>
 
-<p align='center'><img src="https://i.imgur.com/cRhhjRi.mp4"/></p>
+<p align='center'><img src="https://dhruvkaran.com/conv-84deaf2954585b37a73fbcf84bc3cf6e.gif"/></p>
+
+<p align='center'><img src="https://predictiveprogrammer.com/wp-content/uploads/2018/06/convolve.gif"/></p>
 
 [RGB convolution explained by Andrew NG](https://www.youtube.com/watch?v=KTB_OFoAQcc&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=6)
 
 <p>
 
-<h4>Why do we add layers<h4> 
+<h4>Why do we add layers</h4> 
 
 We add layers in a DNN for multiple reasons:
 
-   we have an objective (say detecting an object), and we can do that easily if we could detect the parts of the objects. Parts of the objects can be built from some patterns, and these patterns in-turn can be made from textures. To make any kind of texture, we would need edges and gradients. We add layers to procedurally do exactly this. We expect that our first layers would be able to extract simples features like edges and gradients. Next layers would then build slightly complex features like textures, and the patterns. Then later layers could build parts of objects, which can then be combined into objects. This can be seen in the image above.
-2. we progressively add layers, the receptive field of the network slowly increases. If we are using 3x3 filters, then each pixel in the second layers has only "seen" (receptive field) 3x3 pixels. Before the network can take any decision, the whole image needs to be processed. We add layers to achieve this. Also, consider the fact that required or important edges and gradients can be made or seen within 11x11 pixels in an image of 400x400. But say, we were looking at a face, the parts of the face would take much more area (or the number of pixels). 
+   we have an objective (say detecting an object), and we can do that easily if we could detect the parts of the objects. Parts of the objects can be built from some patterns, and these patterns in-turn can be made from textures. To make any kind of texture, we would need edges and gradients. We add layers procedurally to do exactly this. We expect that our first layers would be able to extract simples features like edges and gradients. Next layers would then build slightly complex features like textures, and the patterns. Then later layers could build parts of objects, which can then be combined into objects. This can be seen in the image above.
+1. we progressively add layers, the receptive field of the network slowly increases. If we are using 3x3 filters, then each pixel in the second layers has only "seen" (receptive field) 3x3 pixels. Before the network can take any decision, the whole image needs to be processed. We add layers to achieve this. Also, consider the fact that required or important edges and gradients can be made or seen within 11x11 pixels in an image of 400x400. But say, we were looking at a face, the parts of the face would take much more area (or the number of pixels). 
 
 <p align='center'><img src="https://i.imgur.com/cq71kyV.gif"/></p>
 
@@ -175,7 +176,7 @@ That's why we have some restrictions for where to add maxpooling. Generally we a
 
 [filter visualization](https://distill.pub/2017/feature-visualization/)
 
-We stopped here:
+
 
 400x400x3     | (3x3x3)x32        | 398x398x32     RF of 3x3<br>
 398x398x32   | (3x3x32)x64      | 396x396x64    RF of 5X5<br>
@@ -217,7 +218,7 @@ Think about these few points:
 3. Since we are merging 512 kernels into 32 complex one, it would be great if we do not pick those features which are not required by the network to predict our images (like backgrounds). 
    
 
-<h4>1x1 convolution<h4>
+<h4>1x1 convolution</h4>
 1x1 provides all these features. 
 
 1. 1x1 is computation less expensive. 
