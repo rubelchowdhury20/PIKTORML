@@ -110,7 +110,11 @@ so finally if we do convlution on a 400x400x3 image and we want extract 100 type
 
 <p align='center'><img src="https://predictiveprogrammer.com/wp-content/uploads/2018/06/convolve.gif"/></p>
 
-<p align='center'><img src="https://dhruvkaran.comconv-84deaf2954585b37a73fbcf84bc3cf6e.gif"/></p>
+<p align='center'><img src="https://i.imgur.com/cRhhjRi.mp4"/></p>
+
+[RGB convolution explained by Andrew NG](https://www.youtube.com/watch?v=KTB_OFoAQcc&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=6)
+
+<p>
 
 <h4>Why do we add layers<h4> 
 
@@ -169,8 +173,146 @@ Let's look at what 3x3 kernels are trying to extract:
 
 That's why we have some restrictions for where to add maxpooling. Generally we add maxpooling after receptive field is around 11x11(for an 400x400 image considering the size of the image is equal to size if the object present)
 
-[kernal visualization](https://distill.pub/2017/feature-visualization/)
+[filter visualization](https://distill.pub/2017/feature-visualization/)
+
+We stopped here:
+
+400x400x3     | (3x3x3)x32        | 398x398x32     RF of 3x3<br>
+398x398x32   | (3x3x32)x64      | 396x396x64    RF of 5X5<br>
+396x396x64   | (3x3x64)x128    | 394x394x128  RF of 7X7<br>
+394x394x128 | (3x3x128)x256 | 392x392x256  RF of 9X9<br>
+392x392x256 | (3x3x256)x512 | 390x390x512  RF of 11X11<br>
+MaxPooling<br>
+195x195x512 | (?x?x512)x32    | ?x?x32 RF of 22x22<br>
+<br>
+
+.. 3x3x32x64                    RF of 24x24<br>
+.. 3x3x64x128                  RF of 26x26<br>
+.. 3x3x128x256               RF of 38x28<br>
+.. 3x3x256x512                RF of 30x30<br>
+
+
+Some points to consider before we proceed:
+In the network above, the most important numbers for us are:
+
+1. 400x400, as that defines where our edges and gradients would form
+2. 11x11, as that's the receptive field which we are trying to achieve before we add transformations (like channel size reduction using MaxPooling)
+3. 512 kernels, as that is what we would need at a minimum to describe all the edges and gradients for the kind of images we are working with (ImageNet)
+4. We have added 5 layers of conv, but that is inconsequential as our aim was to reach 11x11 receptive field. For some other dataset we might have reach required RF for edges&gradients, say after 4 or 3 layers
+5. We are using 3x3 because of the benefits it provides, our ultimate aim is to reach the receptive field of 11x11
+6 . We are following 32, 64, 128, 256, 512 kernels, but there are other possible patterns. We are choosing this specific one as this is expressive enough to build 512 final kernels we need, and since this is an experiment we could, later on, reduce the kernels depending on what hardware we pick for deployment. 
+7. The receptive field of 30x30 is again important for us because that is where we are "hoping" form textures. 
+8. The 5 Convolution Layers we see above form "Convolution Block".
+9. We are again following the same pattern of the increasing number of kernels from 32 to 512 in the second convolution block for the same reason we picked this pattern in the first block. 
+10. Again 512 kernels in the second convolution block are important for us as we need a large number of textures to be able to define all out images. 
+
+<h4>How do reduce number of filters</h4>
+
+We cannot just add 32, 3x3 kernels as that would re-analyze all the 512 channels and give us 32 kernels. This is something we used to do before 2014, and it works, but intuitively we need something better. We have 512 features now, instead of evaluating these 512 kernels and coming out with 32 new ones, it makes sense to combine them to form 32 mixtures. That is where 1x1 convolution helps us. 
+
+Think about these few points:
+
+1. Wouldn't it be better to merge our 512 kernels into 32 richer kernels which could extract multiple features which come together?
+2. 3x3 is an expensive kernel, and we should be able to figure out something lighter, less computationally expensive method. 
+3. Since we are merging 512 kernels into 32 complex one, it would be great if we do not pick those features which are not required by the network to predict our images (like backgrounds). 
+   
 
 <h4>1x1 convolution<h4>
-<h4>non linearity<h4>
+1x1 provides all these features. 
+
+1. 1x1 is computation less expensive. 
+2. 1x1 is not even a proper convolution, as we can, instead of convolving each pixel separately, multiply the whole channel with just 1 number
+4. 1x1 is merging the pre-existing feature extractors, creating new ones, keeping in mind that those features are found together (like edges/gradients which make up an eye)(back propagation will make sure to merge relevant features)
+4. 1x1 is performing a weighted sum of the channels, so it can so happen that it decides not to pick a particular feature which defines the background and not a part of the object. This is helpful as this acts like filtering. Imaging the last few layers seeing only the dog, instead of the dog sitting on the sofa, the background walls, painting on the wall, shoes on the floor and so on. If the network can filter out unnecessary pixels, later layers can focus on describing our classes more, instead of defining the whole image. 
+This is how 1x1 convolution looks like:
+
+<p align = 'center'><img src = "https://cdn-images-1.medium.com/max/1600/1*deVKbCzJs_7eL6p2ltkY0g.png"/></p>
+
+<p align = 'center'> <img src="https://miro.medium.com/max/600/1*AjaTIcaz2oHFuBwTiGfL3w.gif"/></p>
+
+in the above gif 
+
+What you see above is an input of size 32x32x10. We are using 4 1x1 kernels here. Since we have 10 channels in input, our 1x1 kernel also has 10 channels. 
+
+32x32x10 | 1x1x10x4 | 32x32x4
+
+We have reduced the number of channels from 10 to 4. Similarly, we will use 1x1 in our network to reduce the number of channels from 512 to 32. Let's look at the new network:
+
+
+
+<h4>Activation Function</h4>
+
+
+Their main purpose is to convert an input signal of a node in an ANN to an output signal.
+
+Since ages, this activation function has kept AIML community occupied in wrong directions. 
+
+After the convolution is done, we need to take a call with what to do with the values our kernel is providing us. Should we let all pass, or should we change them? This question of choice (of what to do with output) has kept us guessing. And as humans always feel, deciding what to pick and what to remove must have a complicated solution. 
+ 
+
+Why do we need an activation function?
+ 
+
+If we do not apply an Activation function then the output signal would simply be a simple linear function. A linear function is just a polynomial of one degree. Now, a linear equation is easy to solve but they are limited in their complexity and have less power to learn complex functional mappings from data. A Neural Network without Activation function would simply be a Linear regression Model, which has limited power and does not perform well most of the times. We want our Neural Network to not just learn and compute a linear function but something more complicated than that.
+
+ 
+
+Why do we need non-linearities?
+
+We need a Neural Network Model to learn and represent almost anything and any arbitrary complex function which maps inputs to outputs. Neural-Networks are considered Universal Function Approximators. It means that they can compute and learn any function at all. Almost any process we can think of can be represented as a functional computation in Neural Networks.
+
+ 
+
+Hence it all comes down to this, we need to apply an Activation function f(x) so as to make the network more powerful and add the ability to it to learn something complex and complicated form data and represent non-linear complex arbitrary functional mappings between inputs and outputs. Hence using a non-linear Activation we are able to generate non-linear mappings from inputs to outputs.
+
+<h4>Relu</h4>
+<br>
+<p align = 'center'><img src = "https://miro.medium.com/max/2052/1*DfMRHwxY1gyyDmrIAd-gjQ.png"/></p>
+
+<br>
+
+<p align = 'center'><img src = "https://i.imgur.com/EolgnXi.jpgg"/></p>
+
+
+
+This is a very simple function. It allows all the positive numbers to pass on, as it is, and converts all the negatives to zero. It's message to backpropagation or kernels is simple. If you want some data to be passed on to the next layers, please make sure the values are positive. Negative values would be filtered out. This also means that if some value should not be passed on to the next layers, just convert them to negatives. 
+
+ReLU since has worked wonders for us. It is fast, simple and efficient. 
+
+ReLu- Rectified Linear units : It has become very popular in the past couple of years. It was recently proved that it had 6 times improvement in convergencefrom Tanh function. It’s just R(x) = max(0,x) i.e if x < 0 , R(x) = 0 and if x >= 0 , R(x) = x.
+
+ 
+
+ReLU is linear (identity) for all positive values, and zero for all negative values. This means that:
+
+1. It’s cheap to compute as there is no complicated math. The model can therefore take less time to train or run.
+
+2. It converges faster. Linearity means that the slope doesn’t plateau, or “saturate,” when x gets large. It doesn’t have the vanishing gradient problem suffered by other activation functions like sigmoid or tanh.
+
+3. It’s sparsely activated. Since ReLU is zero for all negative inputs, it’s likely for any given unit to not activate at all. 
+
+
+
+
+ReLU is simple, efficient and fast, and even if any one of the above is better, we are talking about a marginal benefit, with an increase in computation. We'll stick to ReLU in our course. Also NVIDIA has acceleration for ReLU activation, so that helps too. 
+
+
 <h4>Summary of constructing a cnn</h4>
+
+This is how our network looks like 
+
+<p>CONVOLUTION BLOCK 1 BEGINS<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;398x398x32&nbsp; &nbsp;| (3x3x32)x64&nbsp; &nbsp; &nbsp; | 396x396x64&nbsp; &nbsp; RF of 5X5<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;396x396x64&nbsp; &nbsp;| (3x3x64)x128&nbsp; &nbsp; | 394x394x128&nbsp; RF of 7X7<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;394x394x128 | (3x3x128)x256 | 392x392x256&nbsp; RF of 9X9<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;392x392x256 | (3x3x256)x<strong>512</strong> | 390x390x512&nbsp; RF<strong>&nbsp;of 11X11</strong></p>
+<p>CONVOLUTION BLOCK 1 ENDS</p>
+<p>&nbsp;</p>
+<p>TRANSITION BLOCK 1 BEGINS<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MAXPOOLING(2x2)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;195x195x512 | <strong>(1x1x512)x32</strong>&nbsp; &nbsp; | 195x195x32 RF of 22x22<br>TRANSITION BLOCK 1 ENDS</p>
+<p>&nbsp;</p>
+<p>CONVOLUTION BLOCK 2 BEGINS<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;195x195x32&nbsp; &nbsp; &nbsp;|(3x3x32)x64&nbsp; &nbsp; &nbsp; &nbsp; | 193x193x64&nbsp; &nbsp; &nbsp; RF of 24x24<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;193x193x64&nbsp; &nbsp; &nbsp;|(3x3x64)x128&nbsp; &nbsp; &nbsp; | 191x191x128&nbsp; &nbsp; RF of 26x26<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;191x191x128&nbsp; &nbsp;|(3x3x128)x256&nbsp; &nbsp;| 189x189x256&nbsp; &nbsp; RF of 28x28<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;189x189x256&nbsp; &nbsp;|(3x3x256)x512&nbsp; &nbsp;| 187x187x512&nbsp; &nbsp; RF of 30x30<br>CONVOLUTION BLOCK 2 ENDS</p>
+<p>&nbsp;</p>
+<p>TRANSITION BLOCK 2 BEGINS<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MAXPOOLING(2x2)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;93x93x512 | <strong>(1x1x512)x32</strong> &nbsp; | 93x93x32 RF of 60x60<br>TRANSITION BLOCK 2 ENDS</p>
+<p>&nbsp;</p>
+<p>CONVOLUTION BLOCK 3 BEGINS<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;93x93x32 | (3x3x32)x64 | 91x91x64&nbsp; &nbsp; &nbsp; &nbsp;RF of 62x62<br>...</p>
+
+<br>
+<p align = "center"><img src = "https://miro.medium.com/max/1200/1*5A4b1qOZIr4Q6SKceqGn7w.jpeg"/></p>
+
+[mnist data filter visualization](https://scs.ryerson.ca/~aharley/vis/conv/)
