@@ -109,7 +109,7 @@ Now say we want to detect one red edge , one blue edge , one slant edge, one bla
 so finally if we do convlution on a 400x400x3 image and we want extract 100 types of image we will 100s of (3x3x3) filters(kernels). that is 3x3x3x100 . output will be 398x398x100
 
 
-<p align='center'><img src="https://dhruvkaran.com/conv-84deaf2954585b37a73fbcf84bc3cf6e.gif"/></p>
+<p align='center'><img src="./images/compressed.gif"/></p>
 
 <p align='center'><img src="https://predictiveprogrammer.com/wp-content/uploads/2018/06/convolve.gif"/></p>
 
