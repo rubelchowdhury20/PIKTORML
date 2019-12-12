@@ -110,8 +110,8 @@ so finally if we do convlution on a 400x400x3 image and we want extract 100 type
 
 <p align='center'><img src="https://predictiveprogrammer.com/wp-content/uploads/2018/06/convolve.gif"/></p>
 
-<p align='center'><img src="https://dhruvkaran.com/conv-84deaf2954585b37a73fbcf84bc3cf6e.gif
-"/></p>
+<p align='center'><img src="https://dhruvkaran.comconv-84deaf2954585b37a73fbcf84bc3cf6e.gif"/></p>
+
 <h4>Why do we add layers<h4> 
 
 We add layers in a DNN for multiple reasons:
